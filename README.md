@@ -7,3 +7,5 @@ Leonardo Oliveira / 2523546
 Lucas Silva / 2422728
 
 João Gabriel / 2522687
+
+Lembrete: adicionar o docs aqui no github (mapa de empatia etc) separando os dados de cada assunto
