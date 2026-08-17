@@ -10,7 +10,6 @@ João Gabriel / 2522687
 
 Lembrete: adicionar o docs aqui no github (mapa de empatia etc) separando os dados de cada assunto
 
-https://docs.google.com/document/d/1WfoTo3V6UwHy_UaceGcP7m1p5zpbO11dca_fpcouHd0/edit?usp=drivesdk
 
 
 # Documento do Projeto
