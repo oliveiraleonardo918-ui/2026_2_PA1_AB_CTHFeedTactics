@@ -92,7 +92,7 @@ Usuários:( Serão os usuários comuns, eles não terão a habilidade de divulga
 Mapa de Empatia:
 
 
-<img width="923" height="676" alt="image" src="https://github.com/user-attachments/assets/bbbc12d2-6f07-4993-b1ae-a778b951a5ee" />
+<img width="923" height="643" alt="mapa-da-empatia-exemplo-para-preencher" src="https://github.com/user-attachments/assets/d71716e6-4c8d-49ad-9b4f-3c872efe24f6" />
 
 
 
