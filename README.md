@@ -8,8 +8,6 @@ Lucas Silva / 2422728
 
 João Gabriel / 2522687
 
-Lembrete: adicionar o docs aqui no github (mapa de empatia etc) separando os dados de cada assunto
-
 
 
 # Documento do Projeto
@@ -17,6 +15,7 @@ Lembrete: adicionar o docs aqui no github (mapa de empatia etc) separando os dad
 
 
 https://docs.google.com/document/d/1WfoTo3V6UwHy_UaceGcP7m1p5zpbO11dca_fpcouHd0/edit?usp=drivesdk
+
 
 A Atividade É, Não é, Faz e Não Faz
 
@@ -52,6 +51,7 @@ Não faz:
 
 Seguimento de Clientes
 
+
 - Estes produtos são desenvolvidos para empresas de todos os portes com o intuito de divulgar informações e alertas de ciberataques.
 
 
@@ -63,7 +63,7 @@ Usuários:
 
 ----------------------------------------------------------------------------------------
 
-Mapa de Empatia:
+Mapa de Empatia
 
 
 <img width="550" height="350" alt="mapa-da-empatia-exemplo-para-preencher" src="https://github.com/user-attachments/assets/d71716e6-4c8d-49ad-9b4f-3c872efe24f6" />
