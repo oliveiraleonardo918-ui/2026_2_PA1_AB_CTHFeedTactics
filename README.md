@@ -50,10 +50,9 @@ Não faz:
 
 ----------------------------------------------------------------------------------------
 
+Seguimento de Clientes
 
-
-Seguimento de clientes:
-Estes produtos são desenvolvidos para empresas de todos os portes com o intuito de divulgar informações e alertas de ciberataques.
+- Estes produtos são desenvolvidos para empresas de todos os portes com o intuito de divulgar informações e alertas de ciberataques.
 
 
 Usuários:
