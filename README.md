@@ -92,7 +92,7 @@ Usuários:( Serão os usuários comuns, eles não terão a habilidade de divulga
 Mapa de Empatia:
 
 
-O que o cliente ve:
+O que o cliente vê:
 
 O que o cliente ouve:
 
@@ -112,31 +112,34 @@ O que o cliente fala e faz:
 
 Dores:
 
-Usuario: 
-Ansiedade por meio de ataques ciberneticos.
+Usuário: 
+Ansiedade por meio de ataques cibernéticos.
 
-Escaces de informações.
+Escassez de informações.
 
 Falta de divulgação de ataques por meio de empresas atacadas.
  
 
-Usuario verificado:
+Usuário verificado:
 
-Falta de hub de informações centralizadas de ataques ciberneticos.
+Falta de hub de informações centralizadas de ataques cibernéticos.
 
-Falta de comunicação entre empresas de pequeno e medio porte atacadas.
+Falta de comunicação entre empresas de pequeno e médio porte atacadas.
 
 Ganhos:
-Usuario: 
-Ganha acesso as ultimas informações de ataques ciberneticos.
+Usuário: 
+Ganha acesso as ultimas informações de ataques cibernéticos.
 
-Plataforma de feed de alertas de de ataques ciberneticos com o intuito de informar e previnir ataques futuros.
-
-
-Usuario verificado:
-Ganha acesso as ultimas informações de ataques ciberneticos.
-
-Plataforma de feed de alertas de de ataques ciberneticos com o intuito de informar e previnir ataques futuros.
+Plataforma de feed de alertas de de ataques cibernéticos com o intuito de informar e prevenir ataques futuros.
 
 
+Usuário verificado:
+Ganha acesso as ultimas informações de ataques cibernéticos.
 
+Plataforma de feed de alertas de de ataques cibernéticos com o intuito de informar e prevenir ataques futuros.
+
+
+----------------------------------------------------------------------------------------
+
+
+Entrevistas e Questionários 
