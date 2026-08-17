@@ -92,6 +92,10 @@ Usuários:( Serão os usuários comuns, eles não terão a habilidade de divulga
 Mapa de Empatia:
 
 
+<img width="923" height="676" alt="image" src="https://github.com/user-attachments/assets/bbbc12d2-6f07-4993-b1ae-a778b951a5ee" />
+
+
+
 O que o cliente vê:
 
 O que o cliente ouve:
