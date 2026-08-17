@@ -70,10 +70,13 @@ Mapa de Empatia
 
 
 
+
 O que o cliente vê:
 
 
+
 O que o cliente ouve:
+
 
 
 O que o cliente pensa e sente: 
