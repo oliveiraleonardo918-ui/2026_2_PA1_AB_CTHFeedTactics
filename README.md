@@ -98,49 +98,41 @@ Mapa de Empatia:
 
 O que o cliente vê:
 
+
 O que o cliente ouve:
 
-O que o cliente pensa e sente:
 
-Falta de um hub de alertas e noticias.
+O que o cliente pensa e sente: 
+- Falta de um hub de alertas e noticias. 
+- A falta de um site onde ele possa divulgar os ataques sofridos por sua empresa. 
+- Frustação pela falta de troca de informações entre empresas em relação a diversas empresas.
 
-A falta de um site onde ele possa divulgar os ataques sofridos por sua empresa.
-
-Frustação pela falta de troca de informações entre empresas em relação a diversas empresas.
 
 O que o cliente fala e faz:
-
-
-
 
 
 Dores:
 
 Usuário: 
-Ansiedade por meio de ataques cibernéticos.
-
-Escassez de informações.
-
-Falta de divulgação de ataques por meio de empresas atacadas.
+- Ansiedade por meio de ataques cibernéticos.
+- Escassez de informações.
+- Falta de divulgação de ataques por meio de empresas atacadas.
  
 
 Usuário verificado:
+- Falta de hub de informações centralizadas de ataques cibernéticos.
+- Falta de comunicação entre empresas de pequeno e médio porte atacadas.
 
-Falta de hub de informações centralizadas de ataques cibernéticos.
-
-Falta de comunicação entre empresas de pequeno e médio porte atacadas.
 
 Ganhos:
 Usuário: 
-Ganha acesso as ultimas informações de ataques cibernéticos.
-
-Plataforma de feed de alertas de de ataques cibernéticos com o intuito de informar e prevenir ataques futuros.
+- Ganha acesso as ultimas informações de ataques cibernéticos.
+- Plataforma de feed de alertas de de ataques cibernéticos com o intuito de informar e prevenir ataques futuros.
 
 
 Usuário verificado:
-Ganha acesso as ultimas informações de ataques cibernéticos.
-
-Plataforma de feed de alertas de de ataques cibernéticos com o intuito de informar e prevenir ataques futuros.
+- Ganha acesso as ultimas informações de ataques cibernéticos.
+- Plataforma de feed de alertas de de ataques cibernéticos com o intuito de informar e prevenir ataques futuros.
 
 
 ----------------------------------------------------------------------------------------
