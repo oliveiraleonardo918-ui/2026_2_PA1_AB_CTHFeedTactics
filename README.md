@@ -20,54 +20,31 @@ https://docs.google.com/document/d/1WfoTo3V6UwHy_UaceGcP7m1p5zpbO11dca_fpcouHd0/
 
 A Atividade É, Não é, Faz e Não Faz
 
+
 É:
-É uma plataforma de informações direcionada a prevenção de ataques cibernéticos.
-
-Direciona os usuários para relatos, feeds e conexão com indicadores de comprometimento.
-
-É uma plataforma com divisão por indústria e os ofensores que se direcionam para cada uma.
-
-Plataforma unificada de informações sobre ciberataques.
+- É uma plataforma de informações direcionada a prevenção de ataques cibernéticos.
+- Direciona os usuários para relatos, feeds e conexão com indicadores de comprometimento.
+- É uma plataforma com divisão por indústria e os ofensores que se direcionam para cada uma.
+- Plataforma unificada de informações sobre ciberataques.
 
 
 Não é:
-
-
-Não é uma plataforma genérica de notícias e alertas.
-
-Não é fórum de troca de informações.
-
-Não é vendor-based.
-
-
-
-
-
-
-
-
-
-
+- Não é uma plataforma genérica de notícias e alertas.
+- Não é fórum de troca de informações.
+- Não é vendor-based.
 
 
 Faz:
-
-Permite que usuários verificados das suas indústrias mandem indicadores de comprometimento e metodologias de ataque.
-
-Permite que usuários encontrem o seu nicho para buscar o que está sendo usado contra “colegas”  
-
-Conexão e integração com API’s de feeds reputacionais para checagem dos IOCs fornecidos.
-
-Permite que usuários verificados de indústrias tenham acesso a informações de contato do perfil de outros verificados.
+- Permite que usuários verificados das suas indústrias mandem indicadores de comprometimento e metodologias de ataque.
+- Permite que usuários encontrem o seu nicho para buscar o que está sendo usado contra “colegas”  
+- Conexão e integração com API’s de feeds reputacionais para checagem dos IOCs fornecidos.
+- Permite que usuários verificados de indústrias tenham acesso a informações de contato do perfil de outros verificados.
 
 
 Não faz:
-
-Não tem chat dentro da plataforma.
-
-Não faz análise dos ataques.
-
-Não monta limitações às recomendações nativamente.
+- Não tem chat dentro da plataforma.
+- Não faz análise dos ataques.
+- Não monta limitações às recomendações nativamente.
 
 
 
@@ -76,16 +53,14 @@ Não monta limitações às recomendações nativamente.
 
 
 Seguimento de clientes:
-
 Estes produtos são desenvolvidos para empresas de todos os portes com o intuito de divulgar informações e alertas de ciberataques.
 
 
 Usuários:
 
-Clientes:(Usuários verificados) Serão os usuários verificados do site com habilidade de divulgar informações.
+- Usuários Verificados: Serão os usuários verificados do site com habilidade de divulgar informações.
 
-
-Usuários:( Serão os usuários comuns, eles não terão a habilidade de divulgar informações pelo site, terão somente a habilidade de visualização de alertas.
+- Usuários: Serão os usuários comuns, eles não terão a habilidade de divulgar informações pelo site, terão somente a habilidade de visualização de alertas.
 
 ----------------------------------------------------------------------------------------
 
