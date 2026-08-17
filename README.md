@@ -71,7 +71,7 @@ Não monta limitações às recomendações nativamente.
 
 
 
-
+----------------------------------------------------------------------------------------
 
 
 
@@ -87,7 +87,7 @@ Clientes:(Usuários verificados) Serão os usuários verificados do site com hab
 
 Usuários:( Serão os usuários comuns, eles não terão a habilidade de divulgar informações pelo site, terão somente a habilidade de visualização de alertas.
 
-
+----------------------------------------------------------------------------------------
 
 Mapa de Empatia:
 
