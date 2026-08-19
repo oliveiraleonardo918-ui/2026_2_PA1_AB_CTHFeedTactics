@@ -18,30 +18,43 @@ https://docs.google.com/document/d/1WfoTo3V6UwHy_UaceGcP7m1p5zpbO11dca_fpcouHd0/
 
 <h1> 1. Resumo do Produto — É, Não É, Faz, Não Faz </h1>
 
-É
+É:
 
  • Plataforma de informações direcionada à prevenção de ataques cibernéticos.
+ 
  • Direciona usuários para relatos, feeds e conexão com indicadores de comprometimento (IOCs).
+ 
  • Plataforma com divisão por indústria e os ofensores direcionados a cada uma.
+ 
  • Plataforma unificada de informações sobre ciberataques.
 
-Não É
+
+Não É:
 
  • Não é uma plataforma genérica de notícias e alertas de segurança.
+ 
  • Não é fórum de troca de informações.
+ 
  • Não é vendor-based (não é patrocinada ou direcionada por fabricantes).
 
-Faz
+
+Faz:
 
  • Permite que usuários verificados enviem IOCs e metodologias de ataque.
+ 
  • Permite que usuários encontrem seu nicho e vejam o que está sendo usado contra empresas similares.
+ 
  • Integração com APIs de feeds reputacionais para checagem dos IOCs fornecidos.
+ 
  • Permite que usuários verificados acessem informações de contato de outros verificados.
 
-Não Faz
+
+Não Faz:
 
  • Não tem chat dentro da plataforma.
+
  • Não faz análise dos ataques.
+ 
  • Não monta recomendações nativamente.
 
 
