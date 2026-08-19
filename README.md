@@ -85,60 +85,90 @@ Analista de segurança, incident responder ou CISO de uma empresa que passou pel
 <h3> O QUE PENSA E SENTE? </h3>
 
 ▸ Preocupação constante com a segurança da empresa — sente que pode ser o próximo alvo.
+
 ▸ Ansiedade por não saber quais ameaças estão ativamente direcionadas à sua indústria.
+
 ▸ Frustração com a fragmentação das informações — precisa consultar dezenas de fontes diferentes.
+
 ▸ Sensação de estar 'no escuro' enquanto ataques acontecem em empresas similares.
+
 ▸ Desejo de ter uma fonte única, confiável e atualizada de inteligência de ameaças.
+
 ▸ Receio de que a empresa não esteja preparada para responder a um ataque sofisticado.
 
 
 <h3> O QUE ESCUTA? </h3>
 
 ▸ Colegas de trabalho comentando sobre incidentes recentes de cibersegurança.
+
 ▸ Gestores e diretoria cobrando postura de segurança mais robusta.
+
 ▸ Notícias sobre vazamentos de dados e ransomware em grandes portais de TI.
+
 ▸ Que empresas do mesmo setor sofreram ataques com TTPs semelhantes.
+
 ▸ Recomendações de influenciadores e especialistas de cybersecurity em redes sociais e podcasts.
+
 ▸ Que a colaboração e o compartilhamento de IOCs entre empresas é fundamental para defesa coletiva.
 
 
 <h3> O QUE VÊ? </h3>
 
 ▸ Notícias fragmentadas e genéricas sobre ciberataques em portais de notícias.
+
 ▸ Concorrentes e empresas do setor sendo atacados publicamente.
+
 ▸ Vendedores de soluções de segurança fazendo marketing agressivo sem contexto real.
+
 ▸ Relatórios de threat intelligence pagos e inacessíveis para empresas menores.
+
 ▸ Feeds de IOCs dispersos em múltiplas plataformas (Twitter/X, blogs, listas de e-mail).
+
 ▸ Dashboards internos de segurança sem contexto externo do cenário de ameaças.
 
 
 <h3> O QUE FALA E FAZ? </h3>
 
 ▸ Busca informações sobre ameaças em múltiplas fontes diariamente de forma manual.
+
 ▸ Compartilha alertas relevantes internamente com a equipe de TI/Segurança.
+
 ▸ Participa de grupos informais de segurança (Telegram, Discord, WhatsApp).
+
 ▸ Reclama da falta de informações acessíveis e centralizadas sobre ataques ao seu setor.
+
 ▸ Tenta implementar medidas preventivas com base em informações limitadas e defasadas.
+
 ▸ Assina newsletters de segurança e acompanha blogs especializados.
 
 
 <h3> DORES </h3>
 
 ▸ Ansiedade constante diante da possibilidade de sofrer um ciberataque sem aviso prévio.
+
 ▸ Escassez de informações consolidadas e filtradas por indústria/setor.
+
 ▸ Tempo excessivo gasto buscando informações em fontes dispersas e não curadas.
+
 ▸ Dificuldade em diferenciar alertas relevantes de ruído informacional.
+
 ▸ Falta de contexto — sabe que existem ameaças, mas não entende quais são direcionadas ao seu setor.
+
 ▸ Ausência de um canal confiável que agregue feeds, IOCs e alertas em um só lugar.
 
 
 <h3> GANHOS </h3>
 
 ▸ Acesso centralizado a informações de ataques cibernéticos filtradas pela sua indústria.
+
 ▸ Feed de alertas atualizado com o intuito de informar e prevenir ataques futuros.
+
 ▸ Economia de tempo ao não precisar consultar dezenas de fontes diariamente.
+
 ▸ Maior confiança na postura de segurança da empresa com informações contextualizadas.
+
 ▸ Capacidade de antecipar ameaças que já atingiram empresas similares no setor.
+
 ▸ Acesso gratuito ou acessível a inteligência de ameaças que antes era restrita a relatórios pagos.
 
 
@@ -149,60 +179,90 @@ Analista de segurança, incident responder ou CISO de uma empresa que passou pel
 <h3> O QUE PENSA E SENTE? </h3>
 
 ▸ Frustração por não ter um canal adequado para compartilhar IOCs e TTPs de ataques sofridos.
+
 ▸ Sentimento de isolamento — sabe que outras empresas passam pelo mesmo, mas não há comunicação.
+
 ▸ Responsabilidade de proteger sua organização e desejo de contribuir para a defesa coletiva do setor.
+
 ▸ Preocupação com a falta de colaboração entre empresas de pequeno e médio porte.
+
 ▸ Aspiração de fazer parte de uma comunidade ativa de inteligência de ameaças da sua indústria.
+
 ▸ Receio de compartilhar informações sensíveis sem garantia de verificação e segurança.
 
 
 <h3> O QUE ESCUTA? </h3>
 
 ▸ Que compartilhar informações sobre ataques é crucial para a defesa coletiva.
+
 ▸ Pressão interna para melhorar a detecção e a resposta a incidentes.
+
 ▸ Relatos informais de ataques em conferências, meetups e eventos de segurança.
+
 ▸ Que faltam canais seguros e verificados para troca de informações entre empresas.
+
 ▸ Recomendações para participar de ISACs, mas encontra barreiras de entrada e custos altos.
+
 ▸ Feedbacks da comunidade sobre a importância de feeds setoriais de threat intelligence.
 
 
 <h3> O QUE VÊ? </h3>
 
 ▸ Ataques sendo reportados tardiamente pela mídia, sem IOCs ou detalhes técnicos.
+
 ▸ Falta de plataformas colaborativas não-vendor-based para troca de inteligência de ameaças.
+
 ▸ Empresas do mesmo setor sendo atingidas por TTPs similares de forma recorrente.
+
 ▸ Relatórios de threat intel que não refletem a realidade local ou setorial.
+
 ▸ Comunidades fechadas e exclusivas que não atendem empresas menores.
+
 ▸ Plataformas que exigem investimento alto ou são voltadas apenas para grandes corporações.
 
 
 <h3> O QUE FALA E FAZ? </h3>
 
 ▸ Analisa IOCs e TTPs dos ataques que investiga durante a rotina de resposta a incidentes.
+
 ▸ Busca compartilhar descobertas com a comunidade de segurança, mas encontra poucos canais.
+
 ▸ Participa de conferências e eventos de segurança para networking e troca de experiências.
+
 ▸ Consulta feeds de reputação e plataformas de threat intel para validar indicadores.
+
 ▸ Tenta contato direto com profissionais de outras empresas do setor para trocar informações.
+
 ▸ Documenta ataques internamente, mas raramente publica externamente por falta de canal adequado.
 
 
 <h3> DORES </h3>
 
 ▸ Falta de um hub centralizado para publicar e consumir informações de ataques cibernéticos.
+
 ▸ Falta de comunicação e colaboração entre empresas de pequeno e médio porte atacadas.
+
 ▸ Dificuldade em validar IOCs recebidos informalmente sem integração com feeds reputacionais.
+
 ▸ Ausência de uma plataforma segura para divulgar ataques sofridos sem exposição indesejada.
+
 ▸ Barreiras de entrada em comunidades existentes de compartilhamento de inteligência (ISACs, CERTs).
+
 ▸ Sensação de que informações valiosas se perdem porque não existe onde publicá-las.
 
 
 <h3> GANHO S</h3>
 
 ▸ Plataforma para divulgar e receber IOCs verificados com validação via APIs reputacionais.
+
 ▸ Rede de contatos com profissionais verificados da mesma indústria.
+
 ▸ Contribuição ativa para a defesa coletiva do setor contra ameaças comuns.
+
 ▸ Acesso a informações de ataques específicos que atingiram empresas similares.
+
 ▸ Validação automática de IOCs submetidos via integração com feeds reputacionais.
+
 ▸ Plataforma segmentada por indústria que garante relevância das informações consumidas.
 
 
