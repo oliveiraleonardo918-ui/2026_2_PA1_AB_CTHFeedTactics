@@ -251,7 +251,7 @@ Analista de segurança, incident responder ou CISO de uma empresa que passou pel
 ▸ Sensação de que informações valiosas se perdem porque não existe onde publicá-las.
 
 
-<h3> GANHO S</h3>
+<h3> GANHOS </h3>
 
 ▸ Plataforma para divulgar e receber IOCs verificados com validação via APIs reputacionais.
 
