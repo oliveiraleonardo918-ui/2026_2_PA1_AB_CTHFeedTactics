@@ -58,6 +58,8 @@ https://docs.google.com/document/d/1WfoTo3V6UwHy_UaceGcP7m1p5zpbO11dca_fpcouHd0/
  • Não monta recomendações nativamente.
 
 
+
+
 <h1> 2. Personas </h1>
 
 <h2> 2.1 Usuário Comum </h2>
@@ -65,6 +67,8 @@ Profissional de TI ou segurança da informação que busca se manter informado s
 
 <h2> 2.2 Usuário Verificado </h2>
 Analista de segurança, incident responder ou CISO de uma empresa que passou pelo processo de verificação da plataforma. Além de consumir informações, pode publicar IOCs, metodologias de ataque e tem acesso às informações de contato de outros verificados da sua indústria.
+
+
 
 
 <h1> 3. Mapa de Empatia </h1>
@@ -202,6 +206,8 @@ Analista de segurança, incident responder ou CISO de uma empresa que passou pel
 
 
 
+
+
 <h1> 4. Questionário de Empatia <h1/> 
   
   
@@ -271,6 +277,7 @@ Objetivo: Priorizar o formato e profundidade do conteúdo publicado.
 
 10. O que faria você voltar à plataforma diariamente? O que te faria abandoná-la?
 Objetivo: Identificar drivers de retenção e churn.
+
 
 
 
