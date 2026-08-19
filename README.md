@@ -57,57 +57,11 @@ Usuários:
 - Usuários: Serão os usuários comuns, eles não terão a habilidade de divulgar informações pelo site, terão somente a habilidade de visualização de alertas.
 
 
-<h1>Mapa de Empatia</h1>
+<h1>Mapa de Empatia e Entrevistas e Questionários</h1>
 
 
 <img width="550" height="350" alt="mapa-da-empatia-exemplo-para-preencher" src="https://github.com/user-attachments/assets/d71716e6-4c8d-49ad-9b4f-3c872efe24f6" />
 
-
-
-
-O que o cliente vê:
-
-
-
-O que o cliente ouve:
-
-
-
-O que o cliente pensa e sente: 
-- Falta de um hub de alertas e noticias. 
-- A falta de um site onde ele possa divulgar os ataques sofridos por sua empresa. 
-- Frustação pela falta de troca de informações entre empresas em relação a diversas empresas.
-
-
-O que o cliente fala e faz:
-
-
-Dores:
-
-Usuário: 
-- Ansiedade por meio de ataques cibernéticos.
-- Escassez de informações.
-- Falta de divulgação de ataques por meio de empresas atacadas.
- 
-
-Usuário verificado:
-- Falta de hub de informações centralizadas de ataques cibernéticos.
-- Falta de comunicação entre empresas de pequeno e médio porte atacadas.
-
-
-Ganhos:
-Usuário: 
-- Ganha acesso as ultimas informações de ataques cibernéticos.
-- Plataforma de feed de alertas de de ataques cibernéticos com o intuito de informar e prevenir ataques futuros.
-
-
-Usuário verificado:
-- Ganha acesso as ultimas informações de ataques cibernéticos.
-- Plataforma de feed de alertas de de ataques cibernéticos com o intuito de informar e prevenir ataques futuros.
-
-
-
-<h1>Entrevistas e Questionários</h1>
 
 
 [CTHFeedTatics_Mapa_Empatia.docx](https://github.com/user-attachments/files/31238880/CTHFeedTatics_Mapa_Empatia.docx)
