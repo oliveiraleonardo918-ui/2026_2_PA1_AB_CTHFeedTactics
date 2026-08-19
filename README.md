@@ -245,6 +245,8 @@ Objetivo: Mapear barreiras de adoção e objeções.
 10. Como você preferiria receber os alertas da plataforma? (ex: feed no site, e-mail, integração com ferramentas, app mobile)
 Objetivo: Definir canais de entrega de valor.
 
+https://docs.google.com/forms/d/e/1FAIpQLSe5T4fkVSonfDt6bbIMu4VQ9eEKwRKl8O6E8LApkbVbHjDVWw/viewform?usp=publish-editor
+
 
 <h2> — Usuário Verificado </h2>
 Roteiro de entrevista semiestruturada para validação das hipóteses do mapa de empatia do usuário verificado. Aplicar com analistas de segurança, incident responders e CISOs que já lidam com resposta a incidentes.
@@ -278,6 +280,8 @@ Objetivo: Priorizar o formato e profundidade do conteúdo publicado.
 
 10. O que faria você voltar à plataforma diariamente? O que te faria abandoná-la?
 Objetivo: Identificar drivers de retenção e churn.
+
+https://docs.google.com/forms/d/e/1FAIpQLSf_-ANEmRsCD-Q4VGm9P6bM4IumPztNB7xrNUgXI3KgCuclRQ/viewform?usp=publish-editor
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
