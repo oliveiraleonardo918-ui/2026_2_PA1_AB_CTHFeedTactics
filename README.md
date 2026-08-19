@@ -57,7 +57,7 @@ https://docs.google.com/document/d/1WfoTo3V6UwHy_UaceGcP7m1p5zpbO11dca_fpcouHd0/
  
  • Não monta recomendações nativamente.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 <h1> 2. Personas </h1>
@@ -68,7 +68,7 @@ Profissional de TI ou segurança da informação que busca se manter informado s
 <h2> 2.2 Usuário Verificado </h2>
 Analista de segurança, incident responder ou CISO de uma empresa que passou pelo processo de verificação da plataforma. Além de consumir informações, pode publicar IOCs, metodologias de ataque e tem acesso às informações de contato de outros verificados da sua indústria.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
@@ -205,13 +205,13 @@ Analista de segurança, incident responder ou CISO de uma empresa que passou pel
 ▸ Validação automática de IOCs submetidos via integração com feeds reputacionais.
 ▸ Plataforma segmentada por indústria que garante relevância das informações consumidas.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
-<h1> 4. Questionário de Empatia <h1/> 
+<h1> 4. Questionário de Empatia </h1>
   
   
+
 <h2> — Usuário Comum </h2>
 Roteiro de entrevista semiestruturada para validação das hipóteses do mapa de empatia do usuário comum. Aplicar individualmente com profissionais de TI e segurança de diferentes portes de empresa.
 
