@@ -18,7 +18,7 @@ https://docs.google.com/document/d/1WfoTo3V6UwHy_UaceGcP7m1p5zpbO11dca_fpcouHd0/
 
 <h1> 1. Resumo do Produto — É, Não É, Faz, Não Faz </h1>
 
-É:
+<h2 >É: </h2>
 
  • Plataforma de informações direcionada à prevenção de ataques cibernéticos.
  
@@ -29,7 +29,7 @@ https://docs.google.com/document/d/1WfoTo3V6UwHy_UaceGcP7m1p5zpbO11dca_fpcouHd0/
  • Plataforma unificada de informações sobre ciberataques.
 
 
-Não É:
+<h2> Não É: </h2>
 
  • Não é uma plataforma genérica de notícias e alertas de segurança.
  
@@ -38,7 +38,7 @@ Não É:
  • Não é vendor-based (não é patrocinada ou direcionada por fabricantes).
 
 
-Faz:
+<h2> Faz: </h2>
 
  • Permite que usuários verificados enviem IOCs e metodologias de ataque.
  
@@ -49,7 +49,7 @@ Faz:
  • Permite que usuários verificados acessem informações de contato de outros verificados.
 
 
-Não Faz:
+<h2> Não Faz: </h2>
 
  • Não tem chat dentro da plataforma.
 
@@ -60,10 +60,10 @@ Não Faz:
 
 <h1> 2. Personas </h1>
 
-2.1 Usuário Comum
+<h2> 2.1 Usuário Comum </h2>
 Profissional de TI ou segurança da informação que busca se manter informado sobre ameaças ao seu setor. Tem acesso somente à visualização de alertas, feeds e IOCs publicados. Não publica conteúdo na plataforma.
 
-2.2 Usuário Verificado
+<h2> 2.2 Usuário Verificado </h2>
 Analista de segurança, incident responder ou CISO de uma empresa que passou pelo processo de verificação da plataforma. Além de consumir informações, pode publicar IOCs, metodologias de ataque e tem acesso às informações de contato de outros verificados da sua indústria.
 
 
