@@ -6,7 +6,7 @@ Leonardo Oliveira / 2523546
 
 Lucas Silva / 2422728
 
-João Gabriel / 2522687
+João Gabriel de Holanda / 2522687
 
 
 
