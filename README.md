@@ -45,10 +45,6 @@ Não faz:
 - Não faz análise dos ataques.
 - Não monta limitações às recomendações nativamente.
 
-
-
-----------------------------------------------------------------------------------------
-
 <h1>Seguimento de Clientes</h1>
 
 
@@ -61,9 +57,8 @@ Usuários:
 
 - Usuários: Serão os usuários comuns, eles não terão a habilidade de divulgar informações pelo site, terão somente a habilidade de visualização de alertas.
 
-----------------------------------------------------------------------------------------
 
-Mapa de Empatia
+<h1>Mapa de Empatia</h1>
 
 
 <img width="550" height="350" alt="mapa-da-empatia-exemplo-para-preencher" src="https://github.com/user-attachments/assets/d71716e6-4c8d-49ad-9b4f-3c872efe24f6" />
