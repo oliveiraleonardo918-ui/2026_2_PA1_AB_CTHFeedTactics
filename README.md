@@ -371,3 +371,15 @@ Trabalhos adjacentes que o cliente pode ter, mas que o CTHFeedTatics **explicita
 - **Comunicação síncrona** — não substitui chats, canais de mensageria ou fóruns; oferece o contato dos verificados para conversa fora da plataforma.
 
 - **Substituição de SIEM/SOAR** — não é ferramenta de detecção nem de orquestração; é fonte de inteligência que alimenta essas ferramentas.
+
+
+7. Problem-Solution Fit
+O Problem-Solution Fit (Encaixe Problema-Solução) demonstra como as funcionalidades do CTHFeedTatics resolvem diretamente as principais dores do nosso segmento de clientes, garantindo que o produto entregue valor real e preencha as lacunas existentes no mercado de segurança da informação.
+Problema 1: Excesso de ruído e falta de contexto setorial. Profissionais perdem tempo e se sentem frustrados filtrando alertas genéricos em fontes dispersas que não se aplicam à sua realidade.
+Solução 1: Inteligência dividida por indústria. A plataforma fornece um hub centralizado onde o usuário consome um feed focado exclusivamente nas ameaças e ofensores direcionados ao seu setor de atuação, eliminando o ruído e economizando tempo diário de pesquisa.
+Problema 2: Dificuldade em validar a veracidade e reputação dos indicadores. Há insegurança em aplicar IOCs recebidos em grupos informais sem validação prévia.
+Solução 2: Integração com APIs reputacionais e curadoria. A plataforma valida automaticamente os IOCs submetidos através de integrações técnicas de confiança, garantindo que a equipe de defesa aja com base em indicadores tecnicamente consistentes antes de aplicá-los no SIEM/EDR.
+Problema 3: Isolamento setorial e barreiras para comunicação colaborativa. Falta de um canal seguro e acessível para troca de inteligência com pares da mesma indústria, sendo as alternativas atuais (ISACs) caras ou burocráticas.
+Solução 3: Comunidade verificada e acesso a contatos. A plataforma permite que usuários passem por um processo de verificação que libera a publicação de ameaças e o acesso às informações de contato de outros profissionais verificados, possibilitando networking, troca de TTPs e defesa colaborativa de forma segura e não-anônima.
+Problema 4: Dependência de relatórios pagos ou plataformas "vendor-based". Soluções existentes muitas vezes têm viés de marketing de fornecedores ou custo inacessível para empresas de pequeno e médio porte.
+Solução 4: Abordagem agnóstica e voltada à comunidade. O CTHFeedTatics não é direcionado por fabricantes de segurança nem focado em vender ferramentas; seu valor está na troca orgânica de inteligência tática, democratizando a threat intelligence curada para organizações de diferentes portes.
