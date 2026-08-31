@@ -76,110 +76,98 @@ Dentro da plataforma, esse segmento único pode assumir dois **papéis de permis
 
 <h3> O QUE PENSA E SENTE? </h3>
 
-▸ Preocupação constante com a segurança da empresa — sente que pode ser o próximo alvo de um ataque direcionado ao setor.
+▸ Preocupação constante com a segurança da empresa — sente que pode ser o próximo alvo de um ataque direcionado ao setor. **Certeza**
 
-▸ Ansiedade por não saber quais ameaças estão ativamente direcionadas à sua indústria e frustração por só descobrir tardiamente.
+▸ Ansiedade por não saber quais ameaças estão ativamente direcionadas à sua indústria e frustração por só descobrir tardiamente. **Certeza**
 
-▸ Frustração com a fragmentação das informações — precisa consultar dezenas de fontes diferentes sem garantia de relevância.
+▸ Frustração com a fragmentação das informações — precisa consultar dezenas de fontes diferentes sem garantia de relevância. **Certeza**
 
-▸ Sensação de isolamento — sabe que outras empresas do setor passam pelo mesmo, mas não há canal seguro de comunicação.
+▸ Sensação de isolamento — sabe que outras empresas do setor passam pelo mesmo, mas as vezes não tem a divulgação necessária para prevenção. **Certeza**
 
-▸ Responsabilidade de proteger sua organização e desejo de contribuir para a defesa coletiva do setor quando possível.
+▸ Responsabilidade de proteger sua organização e desejo de contribuir para a defesa coletiva do setor quando possível. **Certeza**
 
-▸ Desejo de fazer parte de uma comunidade ativa de inteligência de ameaças da sua indústria, com fonte única e confiável.
-
-▸ Receio de compartilhar ou consumir informações sensíveis sem garantia de verificação, curadoria e segurança.
+▸ Receio de compartilhar ou consumir informações sensíveis sem garantia de verificação, curadoria e segurança. **Certeza**
 
 
 <h3> O QUE ESCUTA? </h3>
 
-▸ Colegas de trabalho comentando sobre incidentes recentes de cibersegurança no setor.
+▸ Colegas de trabalho comentando sobre incidentes recentes de cibersegurança no setor. **Certeza**
 
-▸ Gestores e diretoria cobrando postura de segurança mais robusta e evidências de monitoramento de ameaças.
+▸ Gestores e diretoria cobrando postura de segurança mais robusta e evidências de monitoramento de ameaças. **Certeza**
 
-▸ Notícias sobre vazamentos de dados e ransomware em grandes portais de TI, geralmente sem detalhes técnicos.
+▸ Notícias sobre vazamentos de dados e ransomware em grandes portais de TI, geralmente sem detalhes técnicos. **Certeza**
 
-▸ Relatos informais de ataques em conferências, meetups e eventos de segurança da comunidade.
+▸ Recomendações de influenciadores e especialistas de cybersecurity em redes sociais e podcasts. **Certeza**
 
-▸ Recomendações de influenciadores e especialistas de cybersecurity em redes sociais e podcasts.
+▸ Recomendações para participar de ISACs e comunidades fechadas, mas com barreiras de entrada e custos altos. **Certeza**
 
-▸ Recomendações para participar de ISACs e comunidades fechadas, mas com barreiras de entrada e custos altos.
-
-▸ Que a colaboração e o compartilhamento de IOCs entre empresas do setor é fundamental para defesa coletiva.
+▸ Que a colaboração e o compartilhamento de IOCs entre empresas do setor é fundamental para defesa coletiva. **Certeza**
 
 
 <h3> O QUE VÊ? </h3>
 
-▸ Notícias fragmentadas e genéricas sobre ciberataques em portais de notícias, sem IOCs nem detalhes técnicos.
+▸ Notícias fragmentadas e genéricas sobre ciberataques em portais de notícias, sem IOCs nem detalhes técnicos. **Certeza**
 
-▸ Concorrentes e empresas do setor sendo atacados publicamente, com informações reportadas tardiamente.
+▸ Concorrentes e empresas do setor sendo atacados publicamente, com informações reportadas tardiamente. **Certeza**
 
-▸ Vendedores de soluções de segurança fazendo marketing agressivo sem contexto real do cenário de ameaças.
+▸ Vendedores de soluções de segurança fazendo marketing agressivo sem contexto real do cenário de ameaças. **Certeza**
 
-▸ Relatórios de threat intelligence pagos e inacessíveis para empresas de pequeno e médio porte.
+▸ Relatórios de threat intelligence pagos e inacessíveis para empresas de pequeno e médio porte. **Certeza**
 
-▸ Feeds de IOCs dispersos em múltiplas plataformas (Twitter/X, blogs, listas de e-mail, GitHub).
+▸ Feeds de IOCs dispersos em múltiplas plataformas. **Certeza** 
 
-▸ Falta de plataformas colaborativas não-vendor-based para troca de inteligência de ameaças setorial.
-
-▸ Comunidades fechadas e exclusivas que não atendem empresas menores ou profissionais individuais.
-
+▸ Falta de plataformas colaborativas não-vendor-based para troca de inteligência de ameaças setorial. **Certeza**
+ 
 
 <h3> O QUE FALA E FAZ? </h3>
 
-▸ Busca informações sobre ameaças em múltiplas fontes diariamente, de forma manual e não estruturada.
+▸ Busca informações sobre ameaças em múltiplas fontes diariamente, de forma manual e não estruturada. **Certeza**
 
-▸ Compartilha alertas relevantes internamente com a equipe de TI/Segurança e reporta ao gestor.
+▸ Compartilha alertas relevantes internamente com a equipe de TI/Segurança e reporta ao gestor. **Certeza**
 
-▸ Participa de grupos informais de segurança (Telegram, Discord, WhatsApp) para troca rápida de informações.
+▸ Participa de grupos informais de segurança (Telegram, Discord, WhatsApp) para troca rápida de informações. **Certeza**
+ 
+▸ Tenta implementar medidas preventivas com base em informações limitadas e defasadas. **Certeza**
 
-▸ Reclama publicamente da falta de informações acessíveis e centralizadas sobre ataques ao seu setor.
-
-▸ Tenta implementar medidas preventivas com base em informações limitadas e defasadas.
-
-▸ Consulta feeds de reputação e plataformas de threat intel para validar indicadores recebidos informalmente.
-
-▸ Documenta ataques internamente e, quando possível, tenta contato direto com pares de outras empresas.
+▸ Consulta feeds de reputação e plataformas de threat intel para validar indicadores recebidos em alertas. **Certeza**
 
 
 <h3> DORES </h3>
 
-▸ Ansiedade constante diante da possibilidade de sofrer um ciberataque sem aviso prévio ou preparação.
+▸ Escassez de informações consolidadas, curadas e filtradas por indústria/setor. **Certeza**
 
-▸ Escassez de informações consolidadas, curadas e filtradas por indústria/setor.
+▸ Tempo excessivo gasto buscando informações em fontes dispersas, sem garantia de relevância. **Certeza**
 
-▸ Tempo excessivo gasto buscando informações em fontes dispersas, sem garantia de relevância.
+▸ Dificuldade em diferenciar alertas relevantes de ruído informacional. **Certeza**
 
-▸ Dificuldade em diferenciar alertas relevantes de ruído informacional e marketing de fornecedores.
+▸ Ausência de um hub centralizado para consumir — e potencialmente publicar — informações de ataques ao setor **Certeza**
 
-▸ Ausência de um hub centralizado para consumir — e potencialmente publicar — informações de ataques ao setor.
+▸ Falta de comunicação e colaboração entre empresas de pequeno e médio porte atacadas. **Certeza**
 
-▸ Falta de comunicação e colaboração entre empresas de pequeno e médio porte atacadas.
+▸ Barreiras de entrada em comunidades existentes (ISACs, CERTs) por custo, formalidade ou processo. **Certeza**
 
-▸ Barreiras de entrada em comunidades existentes (ISACs, CERTs) por custo, formalidade ou processo.
-
-▸ Dificuldade em validar IOCs recebidos informalmente sem integração com feeds reputacionais.
+▸ Dificuldade em validar IOCs recebidos via alertas sem integração com feeds reputacionais. **Certeza**
 
 
 <h3> GANHOS </h3>
 
-▸ Acesso centralizado a informações de ataques cibernéticos filtradas pela sua indústria.
+▸ Acesso centralizado a informações de ataques cibernéticos filtradas pela sua indústria. **Certeza**
 
-▸ Feed de alertas atualizado com o intuito de informar e prevenir ataques futuros.
+▸ Feed de alertas atualizado com o intuito de informar e prevenir ataques futuros. **Certeza**
 
-▸ Economia de tempo ao não precisar consultar dezenas de fontes diariamente.
+▸ Economia de tempo ao não precisar consultar dezenas de fontes diariamente. **Certeza**
 
-▸ Maior confiança na postura de segurança da empresa com informações contextualizadas ao setor.
+▸ Maior confiança na postura de segurança da empresa com informações contextualizadas ao setor. **Certeza**
 
-▸ Capacidade de antecipar ameaças que já atingiram empresas similares na indústria.
+▸ Capacidade de antecipar ameaças que já atingiram empresas similares na indústria. **Certeza**
 
-▸ Acesso acessível a inteligência de ameaças que antes era restrita a relatórios pagos.
+▸ Acesso acessível a inteligência de ameaças que antes era restrita a relatórios pagos. **Certeza**
 
-▸ Possibilidade de contribuir ativamente com IOCs e TTPs, participando da defesa coletiva do setor (mediante verificação).
+▸ Possibilidade de contribuir ativamente com IOCs e TTPs, participando da defesa coletiva do setor (mediante verificação). **Certeza**
 
-▸ Rede de contatos com profissionais verificados da mesma indústria para troca segura de informações.
+▸ Rede de contatos com profissionais verificados da mesma indústria para troca segura de informações. **Certeza**
 
-▸ Validação automática de IOCs consumidos e submetidos via integração com feeds reputacionais.
+▸ Validação automática de IOCs consumidos e submetidos via integração com feeds reputacionais. **Certeza**
 
 
 
