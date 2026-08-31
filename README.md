@@ -451,3 +451,162 @@ O CTHFeedTatics:
 * **não substitui ferramentas SIEM, SOAR, EDR, firewalls ou outras soluções de defesa**.
 
 Sua função é atuar como uma fonte centralizada e setorial de inteligência de ameaças que auxilia os profissionais na identificação, validação e compartilhamento de informações relevantes para suas próprias operações de segurança.
+
+
+
+CTHFeedTactics
+Simulação de Respostas ao Questionário de Empatia
+4 entrevistas simuladas com profissionais de Security da Accenture
+Documento de Pesquisa — Design de Produto
+Entrevista 1 — Enzo Durans
+Analista SOC N1, Accenture — Triagem de clientes
+O que ele VÊ
+1. Com que frequência você busca informações sobre ameaças cibernéticas direcionadas à sua empresa ou setor?
+Todo dia no início do turno, e ao longo do dia quando dá tempo entre os casos. Como sou N1 de triagem eu atendo vários clientes de setores diferentes, então preciso ter noção geral do que está acontecendo em cada indústria pra priorizar bem os alertas.
+2. Quais fontes você utiliza hoje para se manter atualizado sobre ataques cibernéticos?
+Twitter/X é a principal, sigo uns 30 pesquisadores. Bleeping Computer e The Hacker News pra notícias gerais. Alguns canais no YouTube tipo Gabriel Pato e alguns em inglês. Grupo de WhatsApp com colegas do SOC. O material interno da Accenture ajuda bastante, tem trilha de threat intel e alertas dos outros times.
+3. Você sente que as informações que encontra são relevantes para o setor da sua empresa, ou são genéricas demais?
+Genéricas demais. Como faço triagem de vários clientes, sinto muita falta de informação segmentada. Recebo um alerta de um cliente do varejo e outro de um cliente de saúde na mesma hora, e não tenho contexto setorial pra saber qual priorizar. Vejo muita coisa global, mas o contexto brasileiro por indústria é raro.
+O que ele OUVE
+4. Você já tentou participar de algum ISAC, CERT ou comunidade de compartilhamento de threat intel? Como foi a experiência?
+Como N1 não tenho acesso direto a esses fóruns, geralmente é o tech lead ou o cliente que interage. Acompanho o CERT.br pelos alertas públicos. Comunidade brasileira aberta pra analistas mais júnior eu não conheço nenhuma ativa.
+5. Ter acesso às informações de contato de outros profissionais verificados do seu setor seria útil?
+Bastante. Como N1 eu tenho muita coisa a aprender, e conhecer analistas mais experientes seria valioso pra desenvolvimento profissional. Também usaria pra tirar dúvidas técnicas em investigações que eu me sinta menos seguro.
+O que ele PENSA E SENTE
+6. O que te causaria mais ansiedade: não saber que um ataque está acontecendo no seu setor, ou saber mas não ter detalhes técnicos suficientes?
+Não saber é o pior. Se eu sei que existe eu peço ajuda pro N2 ou pro tech lead, corro atrás. Mas se eu nem sei da existência da ameaça é pior porque não tenho como priorizar direito o alerta que vem.
+7. Você confiaria em informações de ataques compartilhadas por outras empresas do mesmo setor em uma plataforma verificada?
+Confiaria com verificação séria. E-mail corporativo verificado e LinkedIn confirmado no mínimo. Se tivesse indicador visual mostrando reputação da conta, tipo quantos IOCs já publicou e quantos foram validados, isso ajudaria muito quem é mais júnior como eu a saber em quem confiar mais.
+O que ele FALA E FAZ
+8. Quanto tempo por semana você estima gastar buscando informações de segurança em diferentes fontes?
+Umas 6 a 8 horas por semana. Gostaria de dedicar mais, mas a rotina de triagem é bem puxada com volume alto de alertas.
+9. Quando sua empresa sofre ou identifica um incidente, vocês compartilham os IOCs e TTPs com outras organizações do setor?
+Internamente entre os times da Accenture sim, tem processo bem estabelecido e a gente contribui com IOCs pra base interna. Externamente é decisão do cliente e do time de threat intel, eu não participo dessa etapa como N1. Publicamente nunca até onde eu sei.
+10. A integração com APIs de feeds reputacionais para validação automática de IOCs é algo que você usaria ativamente?
+Muito. Hoje quando pego um IOC em algum alerta preciso ir manualmente no VirusTotal e outros pra classificar. Se a plataforma já entrega isso pronto eu ganho tempo enorme no turno e consigo processar mais alertas.
+11. Se tivesse permissão para publicar na plataforma, que tipo de informação você compartilharia primeiro?
+Provavelmente começaria com IOCs técnicos porque é o que domino mais. Contexto detalhado eu ainda estou aprendendo a escrever com qualidade. Com o tempo, evoluiria pra publicar combinação de IOC mais TTP mais contexto.
+DORES
+12. Você já deixou de tomar uma ação preventiva por falta de informação sobre uma ameaça específica?
+Como N1 minha ação é mais operacional, tipo escalar rápido pro N2 ou classificar corretamente. Mas já vi casos em que descobri depois que existia uma campanha ativa contra o setor de algum cliente e a gente não tinha o contexto pra priorizar corretamente na hora. Aí o alerta acabou ficando na fila mais tempo que deveria.
+13. O que te impediria de usar uma plataforma como essa?
+Se fosse muito complexa pra quem está começando eu talvez desistisse. Custo alto o cliente não aprovaria. E se tivesse muito jargão sem explicação eu perderia tempo tentando entender antes de conseguir aplicar.
+GANHOS
+14. Se existisse uma plataforma que centralizasse alertas e IOCs filtrados por indústria, qual seria a primeira coisa que você buscaria nela?
+Filtro pelos setores dos clientes que atendo, pra ver os IOCs mais recentes de cada um. Isso me ajudaria muito na hora de priorizar alertas na triagem. Se tivesse contexto explicativo dos ataques em linguagem mais acessível seria ótimo, porque ajuda quem está aprendendo como eu.
+15. Como você preferiria receber os alertas da plataforma? E o que faria você voltar diariamente ou abandoná-la?
+Feed no site e digest por e-mail pela manhã. Notificação no celular pra alertas críticos dos setores dos meus clientes. Voltaria diariamente se encontrasse conteúdo que me ajudasse a evoluir tecnicamente e a fazer melhor a triagem. Abandonaria se fosse técnico demais sem contexto ou se não trouxesse nada novo.
+Entrevista 2 — Enzo Marins
+Analista SOC N2, Accenture — Dedicado a cliente automotivo
+O que ele VÊ
+1. Com que frequência você busca informações sobre ameaças cibernéticas direcionadas à sua empresa ou setor?
+Todo dia no início do turno. Automotivo é um setor que vive sob mira de espionagem industrial e ransomware direcionado a linha de produção, então eu preciso estar antenado desde o primeiro café. Durante o turno também acompanho os canais quando aparece algo relevante.
+2. Quais fontes você utiliza hoje para se manter atualizado sobre ataques cibernéticos?
+Twitter/X é onde eu vivo, sigo pesquisadores de OT e IT security. Bleeping Computer, The DFIR Report, Dark Reading. Alguns canais no Telegram de threat intel em português. Reports da Mandiant e CrowdStrike quando saem os anuais. Também acompanho o Auto-ISAC de longe, mas o acesso é restrito ao cliente. Grupo interno da Accenture no Teams tem uma trilha de threat intel que ajuda.
+3. Você sente que as informações que encontra são relevantes para o setor da sua empresa, ou são genéricas demais?
+Bem genéricas. O setor automotivo tem particularidades enormes, tipo ataques a fornecedores da cadeia, ataques a linha de produção via OT, roubo de propriedade intelectual. Isso raramente aparece nas fontes abertas. Quando aparece é caso grande tipo o da Toyota parando fábrica, e aí já é tarde.
+O que ele OUVE
+4. Você já tentou participar de algum ISAC, CERT ou comunidade de compartilhamento de threat intel?
+Auto-ISAC é acesso do cliente, eu não uso diretamente. CERT.br eu acompanho os alertas gerais. Comunidade automotiva brasileira específica eu não conheço nenhuma ativa, o que é um problema porque a gente sabe que ataques a montadoras aqui existem.
+5. Ter acesso às informações de contato de outros profissionais verificados do seu setor seria útil?
+Muito útil. Automotivo é um setor pequeno e fechado no Brasil, conhecer analistas de outras montadoras direto seria ouro. Usaria pra tirar dúvida em investigação ativa, pra confirmar se alguém mais está vendo o mesmo indicador, e pra trocar figurinha em conferência.
+O que ele PENSA E SENTE
+6. O que te causaria mais ansiedade?
+Não saber. Sem awareness eu não posso nem começar a caçar. Se eu sei que existe eu invento um jeito de investigar, mas não saber é ficar de olhos vendados.
+7. Você confiaria em informações compartilhadas por outras empresas?
+Confiaria com verificação séria. E-mail corporativo verificado, LinkedIn confirmado, e idealmente algum vouching. Reputação da conta baseada no histórico de publicação também. Se qualquer um pudesse publicar sem filtro, viraria ruído em pouco tempo.
+O que ele FALA E FAZ
+8. Quanto tempo por semana você estima gastar buscando informações?
+Umas 10 horas por semana somando tudo. Um pouco mais quando estou de plantão ou quando o cliente pede briefing de ameaças mensal.
+9. Quando sua empresa identifica um incidente, vocês compartilham IOCs e TTPs?
+Internamente compartilhamos entre os SOCs da Accenture, tem processo bem definido pra isso. Com outras empresas do setor automotivo, quase nada. O cliente é muito restrito sobre o que sai do ambiente, e faz sentido porque tem propriedade intelectual envolvida. Publicamente nunca.
+10. Usaria integração com APIs de feeds reputacionais?
+Absolutamente. Sem isso a plataforma perde metade do valor pra mim. VirusTotal, AbuseIPDB, AlienVault OTX no mínimo. Se puder incluir GreyNoise e Shodan também, melhor.
+11. Que informações compartilharia?
+Combinação. IOC solto é meio inútil hoje em dia. Preciso do IOC mais TTP no MITRE mais contexto de como o ataque se desenrolou.
+DORES
+12. Você já deixou de tomar uma ação preventiva por falta de informação?
+Já, mais de uma vez. O que mais me marcou foi uma campanha usando um loader específico contra montadoras que a gente só entendeu depois que apareceu no ambiente. Depois descobri em fórum fechado que colegas de outras montadoras já tinham visto o mesmo padrão semanas antes.
+13. O que impediria você de usar a plataforma?
+Se fosse cara demais o cliente não aprovaria licença corporativa. Se tivesse muito ruído eu abandonaria rápido. E se o processo de verificação fosse muito burocrático eu ficaria como usuário comum e não contribuiria.
+GANHOS
+14. O que buscaria primeiro na plataforma?
+Filtro automotivo LATAM, últimos 15 dias. Depois olharia TTPs específicos de ataques a cadeia de suprimentos e OT. Se tivesse hashes exportáveis eu jogaria direto no SIEM pra caçada retroativa.
+15. Como gostaria de receber os alertas?
+Feed no site pra consulta diária, digest matinal por e-mail com highlights do setor, e API pra integrar com SIEM e SOAR. Voltaria todo dia se encontrasse conteúdo que não está em Twitter nem em blog conhecido.
+Entrevista 3 — Paulo Sizino
+Analista SOC N3 CSIRT, Accenture — Atuação em qualquer cliente com incidente
+O que ele VÊ
+1. Frequência de busca por informações
+O tempo todo. Como N3 CSIRT eu atuo em incidentes ativos de vários clientes e setores diferentes, então threat intel é insumo constante do meu trabalho. Umas 5 a 7 horas do meu dia é isso, entre consumo, análise e produção de intel.
+2. Principais fontes
+Mandiant Advantage, Recorded Future, MISP interno da Accenture. Reports globais da CrowdStrike, Palo Alto Unit 42, Microsoft Threat Intelligence. GitHub de pesquisadores, MITRE ATT&CK, DFIR Report. Twitter/X pra sinal rápido. Fóruns em russo e chinês eu monitoro com tradutor quando é atribuição de ator específico.
+3. Relevância das informações
+As pagas são bem específicas, mas ainda com viés global. Pra realidade LATAM tem muito gap. O que me falta mais é o cruzamento setorial em contexto brasileiro.
+O que ele OUVE
+4. Participação em comunidades
+Vários, dependendo do cliente. FS-ISAC pra financeiro, E-ISAC pra energia, Auto-ISAC pra automotivo. Todos com foco EUA e barreiras de entrada. CERT.br pra macro. Comunidades regionais LATAM eu tento fomentar informalmente com colegas de outras empresas em conferência.
+5. Contato com outros profissionais
+Muito útil, especialmente pra colaboração em investigação ativa. Muitas vezes durante um incidente eu preciso saber se outro CSIRT ou tech lead está vendo o mesmo indicador.
+O que ele PENSA E SENTE
+6. Maior preocupação
+Pra mim é o oposto do que meus analistas mais júnior falariam. Awareness eu tenho de sobra, meu problema é conseguir descer pro nível de IOC e TTP acionável rápido o suficiente pra responder ao incidente.
+7. Confiança na plataforma
+Confiaria mediante marcação TLP em cada publicação. Verificação de indivíduo mais empresa, vouching por pares e histórico de contribuição. Reputação da fonte precisa ser transparente.
+O que ele FALA E FAZ
+8. Tempo dedicado
+Umas 30 a 35 horas por semana, considerando que threat intel é insumo direto do meu trabalho de resposta.
+9. Compartilhamento de inteligência
+Internamente entre os SOCs e CSIRTs da Accenture sim. Externamente é caso a caso e depende do NDA do cliente, geralmente vai via ISAC.
+10. Integrações
+VirusTotal, AbuseIPDB, AlienVault OTX, GreyNoise, Shodan, Censys, PulseDive. E idealmente exportação em STIX/TAXII pra alimentar o MISP direto.
+11. Publicação
+Combinação sempre. IOC sozinho é ruído. Meu formato preferido é IOC mais TTP no MITRE mais contexto de campanha mais atribuição quando possível.
+DORES
+12. Falta de informação
+Quando faço lições aprendidas e threat hunting proativo, muitas vezes descubro que a informação existia e não foi capturada em tempo. Isso me frustra bastante.
+13. Barreiras de adoção
+Falta de suporte a STIX/TAXII. Falta de TLP. Ausência de mecanismo pra proteger informação sensível de atribuição. Também não uso plataforma sem API robusta.
+GANHOS
+14. Principal necessidade
+Cruzamento setorial no Brasil e LATAM. Filtro por ator ou família de malware. Busca por hash, IP ou domínio direto pra enrichment durante resposta ativa.
+15. Forma de utilização
+API e webhook pra integrar com MISP e SIEM. Feed no site pra pesquisa ad-hoc durante incidente. E-mail digest diário pra visão geral do que os pares estão vendo.
+Entrevista 4 — Edgar Pedrosa
+Gerente SOC, Accenture
+O que ele VÊ
+1. Frequência
+Diariamente, mas de forma diferente dos meus analistas. Eles fazem o operacional, eu consumo relatórios executivos e me foco no que vira decisão de investimento, contratação e postura de defesa.
+2. Fontes
+Recorded Future e Mandiant. Relatórios trimestrais da Verizon DBIR, CrowdStrike Global Threat Report, IBM X-Force. LinkedIn de outros gerentes e CISOs e os reports internos dos meus tech leads e do time de threat intel da Accenture.
+3. Relevância
+As pagas são bem específicas. As gratuitas são genéricas. O problema é que meu time todo não tem acesso às plataformas pagas por questão de licenciamento.
+O que ele OUVE
+4. Comunidades
+Como gerente participo indiretamente pelos clientes. FS-ISAC, E-ISAC, Auto-ISAC, dependendo do portfolio. Todos com foco EUA, em inglês, e caros. Pra realidade brasileira falta algo equivalente.
+5. Networking
+Extremamente útil. Usaria pra networking com outros gerentes de SOC em situações de crise e também pra benchmark de estrutura, custos, contratação e maturidade.
+O que ele PENSA E SENTE
+6. Principal preocupação
+Não saber é pior estrategicamente. Sem detalhe eu ainda ajusto postura genericamente e delego pro tech lead aprofundar. Sem informação nenhuma eu tomo decisão no escuro.
+7. Confiança
+Confiaria com processo de verificação equivalente aos ISACs. Idealmente verificação de empresa e não só de indivíduo. Precisa ter algum tipo de acordo de confidencialidade ou termo que dê proteção jurídica pra quem publica.
+O que ele FALA E FAZ
+8. Tempo dedicado
+Umas 5 horas eu direto. Mas se somar o tempo do meu time todo, é fácil passar de 100 horas semana coletiva.
+9. Compartilhamento
+Internamente entre os SOCs e CSIRTs da Accenture sim. Com o cliente sempre. Externamente é decisão do cliente e passa pelo jurídico deles.
+10. Integrações
+Meu time usa muito. Eu enquanto gerente uso indiretamente, mas é premissa. Se a plataforma não fizesse isso, meu time reclamaria em uma semana e eu não conseguiria justificar a assinatura corporativa.
+11. Publicação
+A combinação, mas com camada de sanitização forte. Publicaríamos IOCs e TTPs limpos, contexto sem identificar cliente ou volume financeiro.
+DORES
+12. Falta de informação
+Quando a informação chega atrasada, eu perco janela de decisão e a resposta acaba sendo reativa em vez de preventiva.
+13. Barreiras de adoção
+Preço fora da realidade brasileira. Falta de aderência à LGPD e riscos jurídicos mal tratados. Falta de mecanismo de proteção da confidencialidade do cliente é dealbreaker.
+GANHOS
+14. O que buscaria primeiro
+Visão executiva das ameaças ativas por setor no Brasil na última semana. Depois cruzamento com os setores dos clientes que atendemos pra ver onde priorizar recursos.
+15. Forma de utilização
+Digest executivo semanal por e-mail, feed do site pra consulta e integração via API pro meu time no operacional. Voltaria se eu conseguisse levar insight único pra minha próxima reunião com liderança e clientes.
