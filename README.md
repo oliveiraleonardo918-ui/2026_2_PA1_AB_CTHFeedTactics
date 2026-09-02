@@ -440,6 +440,241 @@ O CTHFeedTatics:
 
 Sua função é atuar como uma fonte centralizada e setorial de inteligência de ameaças que auxilia os profissionais na identificação, validação e compartilhamento de informações relevantes para suas próprias operações de segurança.
 
+_____________________________________________________________________________________________________________________________________________________________________________
+
+# 8. Business Model Canvas
+
+O Business Model Canvas do **CTHFeedTatics** apresenta a estrutura do modelo de negócio da plataforma, relacionando o segmento de clientes atendido, a proposta de valor oferecida, os canais de acesso, as formas de relacionamento, as possíveis fontes de receita, os recursos e atividades necessários para a operação, as principais parcerias e a estrutura de custos.
+
+## 8.1 Segmentos de Clientes
+
+O CTHFeedTatics atende a um **segmento principal de clientes: profissionais de tecnologia e segurança da informação que possuem responsabilidade sobre a postura de segurança cibernética de suas organizações e necessitam de inteligência de ameaças contextualizada à sua indústria**.
+
+Esse segmento inclui:
+
+* Analistas de SOC;
+* Analistas de Threat Intelligence;
+* Engenheiros de detecção;
+* Incident Responders;
+* Engenheiros e analistas de segurança;
+* Coordenadores e gestores de segurança da informação;
+* CISOs;
+* Profissionais de TI que acumulam responsabilidades relacionadas à segurança em organizações sem equipes especializadas.
+
+Dentro da plataforma existem dois **papéis de permissão**, que não representam segmentos diferentes:
+
+* **Usuário comum:** pode consultar informações, IOCs, TTPs e conteúdos relacionados às ameaças direcionadas à sua indústria.
+* **Usuário verificado:** além da consulta, pode publicar IOCs e metodologias de ataque e acessar informações de contato de outros profissionais verificados.
+
+O elemento que unifica esses usuários é a necessidade de obter informações confiáveis e contextualizadas sobre ameaças que estejam afetando organizações de setores semelhantes.
+
+## 8.2 Propostas de Valor
+
+O CTHFeedTatics oferece uma **plataforma centralizada de inteligência de ameaças organizada por indústria**, permitindo que profissionais de segurança encontrem informações relevantes ao seu contexto sem depender da consulta manual de diversas fontes dispersas.
+
+A plataforma busca entregar:
+
+* **Inteligência segmentada por indústria**, permitindo acompanhar ataques, ofensores, IOCs e TTPs relacionados especificamente ao setor de atuação do usuário.
+
+* **Centralização de informações**, reunindo em um único ambiente dados que normalmente estariam distribuídos entre feeds, blogs, redes sociais, comunidades e outras fontes.
+
+* **Redução do ruído informacional**, priorizando informações relacionadas ao contexto setorial do usuário em vez de apresentar um feed genérico de notícias de segurança.
+
+* **Validação de IOCs**, utilizando integração com APIs e feeds reputacionais para adicionar contexto técnico aos indicadores disponibilizados.
+
+* **Compartilhamento verificado de inteligência**, permitindo que profissionais que passaram pelo processo de verificação contribuam com IOCs e metodologias de ataques identificados.
+
+* **Colaboração entre profissionais da mesma indústria**, possibilitando que usuários verificados encontrem informações de contato de outros profissionais verificados e realizem a comunicação externamente.
+
+* **Independência de fabricantes**, mantendo uma abordagem não-vendor-based, sem direcionar a inteligência apresentada para a promoção de ferramentas ou fornecedores específicos.
+
+A proposta busca reduzir o tempo gasto na coleta e filtragem manual de informações e permitir que o profissional identifique mais rapidamente ameaças que já estejam afetando empresas semelhantes à sua.
+
+## 8.3 Canais
+
+Os principais canais utilizados pelo CTHFeedTatics para entregar sua proposta de valor e alcançar seus usuários são:
+
+* **Plataforma Web**, como principal meio de acesso aos feeds, IOCs, TTPs, informações sobre ofensores e conteúdos segmentados por indústria.
+
+* **Feed personalizado por indústria**, permitindo ao usuário acompanhar informações relacionadas ao seu setor diretamente dentro da plataforma.
+
+* **E-mail**, utilizado para notificações, alertas relevantes, recuperação de conta, confirmação de cadastro e comunicações relacionadas à plataforma.
+
+* **APIs e integrações com feeds reputacionais**, utilizadas para enriquecer e validar os IOCs apresentados aos usuários.
+
+* **Mecanismos de busca e presença digital**, facilitando a descoberta da plataforma por profissionais que procuram informações sobre inteligência de ameaças e segurança setorial.
+
+* **Comunidades e eventos de cybersecurity**, utilizados como canais para divulgação da plataforma e aquisição de profissionais do segmento.
+
+* **Redes profissionais**, especialmente ambientes utilizados por profissionais de tecnologia e segurança para divulgação de conteúdo e networking.
+
+## 8.4 Relacionamentos com os Clientes
+
+O relacionamento com os usuários do CTHFeedTatics é baseado principalmente em **self-service, automação, confiança e colaboração profissional verificada**.
+
+A plataforma estabelece esse relacionamento por meio de:
+
+* **Self-service para consulta de inteligência**, permitindo que o profissional encontre e filtre informações relevantes sem necessidade de atendimento direto.
+
+* **Personalização por indústria**, priorizando conteúdos relacionados ao contexto profissional do usuário.
+
+* **Processo de verificação de usuários**, utilizado para estabelecer maior confiança entre os profissionais autorizados a contribuir com informações.
+
+* **Contribuição comunitária**, permitindo que usuários verificados publiquem IOCs e metodologias de ataque relevantes.
+
+* **Validação automatizada de indicadores**, utilizando integrações externas para adicionar informações reputacionais aos IOCs.
+
+* **Networking profissional**, permitindo que usuários verificados consultem informações de contato de outros profissionais verificados.
+
+* **Suporte ao usuário**, para resolução de problemas relacionados a cadastro, acesso, verificação e utilização da plataforma.
+
+* **Moderação e curadoria**, buscando preservar a qualidade e a confiabilidade das informações disponibilizadas.
+
+O CTHFeedTatics não pretende substituir ferramentas externas de comunicação. O contato entre profissionais ocorre fora da plataforma a partir das informações disponibilizadas aos usuários verificados.
+
+## 8.5 Fontes de Renda
+
+Considerando a proposta de tornar a inteligência de ameaças acessível para organizações de diferentes portes, o modelo de receita do CTHFeedTatics pode combinar acesso gratuito a funcionalidades essenciais com serviços e funcionalidades avançadas.
+
+Possíveis fontes de receita incluem:
+
+* **Modelo freemium**, oferecendo gratuitamente funcionalidades essenciais de consulta e cobrando por recursos profissionais ou avançados.
+
+* **Assinaturas profissionais**, destinadas a usuários ou organizações que necessitem de funcionalidades adicionais, maior capacidade de consulta ou recursos avançados.
+
+* **Planos corporativos**, permitindo que empresas disponibilizem acesso à plataforma para múltiplos profissionais de suas equipes de segurança.
+
+* **Acesso avançado a integrações e APIs**, possibilitando que organizações integrem informações disponibilizadas pelo CTHFeedTatics às suas ferramentas e fluxos internos.
+
+* **Serviços B2B relacionados à inteligência setorial**, desde que não comprometam a independência da plataforma nem transformem o serviço em uma solução direcionada por fabricantes.
+
+As estratégias de monetização devem preservar o princípio **não-vendor-based** do CTHFeedTatics, evitando que fornecedores de segurança possam influenciar a priorização ou apresentação das informações de inteligência.
+
+## 8.6 Recursos-Chave
+
+Para operar e entregar sua proposta de valor, o CTHFeedTatics depende dos seguintes recursos principais:
+
+* **Plataforma Web**, responsável pela disponibilização dos feeds e interação dos usuários.
+
+* **Backend e banco de dados**, responsáveis pelo armazenamento e organização de usuários, setores, ataques, ofensores, IOCs, TTPs e demais informações da plataforma.
+
+* **Sistema de classificação por indústria**, utilizado para relacionar informações de ameaças aos setores relevantes.
+
+* **Integrações com APIs e feeds reputacionais**, necessárias para checagem e enriquecimento dos IOCs.
+
+* **Sistema de autenticação e verificação**, responsável por diferenciar usuários comuns e usuários verificados.
+
+* **Mecanismos de moderação e curadoria**, necessários para manter a qualidade das contribuições realizadas pela comunidade.
+
+* **Infraestrutura em nuvem**, garantindo disponibilidade, armazenamento, processamento e escalabilidade.
+
+* **Equipe de desenvolvimento**, responsável pela criação, manutenção e evolução da plataforma.
+
+* **Conhecimento especializado em cybersecurity e threat intelligence**, necessário para estruturar corretamente os dados e processos relacionados a IOCs, TTPs e inteligência de ameaças.
+
+* **Políticas de segurança, privacidade e confiança**, fundamentais para lidar com informações potencialmente sensíveis e dados de profissionais verificados.
+
+## 8.7 Atividades-Chave
+
+As principais atividades necessárias para o funcionamento do CTHFeedTatics são:
+
+* **Desenvolvimento e evolução da plataforma**, incluindo feeds, filtros, perfis, publicação de informações e integrações.
+
+* **Organização e classificação da inteligência por indústria**, garantindo que as informações sejam apresentadas dentro do contexto setorial adequado.
+
+* **Integração e manutenção de APIs reputacionais**, permitindo consultar e enriquecer os IOCs disponíveis.
+
+* **Gestão do processo de verificação de usuários**, garantindo que permissões adicionais sejam concedidas de maneira controlada.
+
+* **Moderação das contribuições**, buscando reduzir informações incorretas, maliciosas ou de baixa qualidade.
+
+* **Gestão e proteção dos dados**, especialmente informações relacionadas aos usuários verificados e suas formas de contato.
+
+* **Manutenção da infraestrutura e segurança da própria plataforma**, considerando que um serviço relacionado à cybersecurity precisa manter elevados padrões de proteção.
+
+* **Aquisição e retenção de usuários**, por meio da divulgação em comunidades, eventos e canais utilizados por profissionais de segurança.
+
+* **Monitoramento da qualidade das informações**, buscando preservar a relevância e confiabilidade do conteúdo disponibilizado.
+
+## 8.8 Parcerias-Chave
+
+O CTHFeedTatics depende de parceiros capazes de complementar sua infraestrutura e fornecer fontes confiáveis de informação.
+
+As principais categorias de parceiros são:
+
+* **Provedores de feeds reputacionais**, utilizados para consulta e enriquecimento de hashes, endereços IP, domínios, URLs e outros indicadores.
+
+* **Provedores de infraestrutura em nuvem**, responsáveis por hospedagem, armazenamento, banco de dados e disponibilidade da plataforma.
+
+* **Serviços de autenticação e identidade**, quando utilizados para auxiliar o processo de cadastro e verificação.
+
+* **Comunidades e organizações de cybersecurity**, que podem contribuir para divulgação, adoção e construção de uma comunidade profissional.
+
+* **Instituições acadêmicas e grupos de pesquisa em segurança**, que podem colaborar com conhecimento, divulgação e desenvolvimento de práticas relacionadas à inteligência de ameaças.
+
+* **Empresas e equipes de segurança participantes**, cuja contribuição voluntária de IOCs e metodologias de ataque é importante para o crescimento da base comunitária.
+
+* **Eventos e conferências de cybersecurity**, utilizados para divulgação da plataforma e aproximação com profissionais do segmento.
+
+As parcerias devem preservar a independência da plataforma, principalmente em relação a fabricantes de ferramentas de segurança, evitando interferência comercial sobre a inteligência apresentada aos usuários.
+
+## 8.9 Estrutura de Custos
+
+Os principais custos associados ao desenvolvimento e operação do CTHFeedTatics incluem:
+
+* **Desenvolvimento de software**, envolvendo frontend, backend, banco de dados, UX e manutenção da plataforma.
+
+* **Infraestrutura em nuvem**, incluindo hospedagem, banco de dados, armazenamento, processamento e transferência de dados.
+
+* **APIs e feeds reputacionais**, especialmente quando serviços externos adotarem cobrança baseada em quantidade de consultas ou planos de acesso.
+
+* **Segurança da plataforma**, incluindo monitoramento, proteção da infraestrutura, gerenciamento de vulnerabilidades e mecanismos de autenticação.
+
+* **Processo de verificação de usuários**, incluindo ferramentas ou atividades necessárias para confirmar a legitimidade dos profissionais que solicitarem permissões adicionais.
+
+* **Moderação e curadoria**, necessárias para garantir a qualidade das informações publicadas pela comunidade.
+
+* **Equipe técnica e operacional**, incluindo desenvolvimento, infraestrutura, segurança, suporte e administração.
+
+* **Aquisição e retenção de usuários**, envolvendo divulgação, participação em eventos, produção de conteúdo e relacionamento com comunidades profissionais.
+
+* **Custos legais e de compliance**, especialmente relacionados à LGPD, privacidade, armazenamento de informações de contato e termos de utilização.
+
+* **Ferramentas administrativas e operacionais**, necessárias para gestão interna, suporte e acompanhamento do funcionamento da plataforma.
+
+## 8.10 Síntese do Modelo de Negócio
+
+O modelo do CTHFeedTatics pode ser resumido em um ciclo de geração de valor:
+
+**Profissionais e fontes fornecem inteligência de ameaças**
+
+↓
+
+**A plataforma organiza as informações por indústria**
+
+↓
+
+**IOCs são enriquecidos por feeds reputacionais**
+
+↓
+
+**Profissionais encontram ameaças relevantes ao seu contexto**
+
+↓
+
+**As organizações podem antecipar riscos e ajustar suas próprias defesas**
+
+↓
+
+**Usuários verificados contribuem com novos IOCs e metodologias**
+
+↓
+
+**A base de inteligência setorial cresce e beneficia novamente a comunidade**
+
+Dessa forma, o valor da plataforma tende a aumentar conforme cresce a quantidade de informações relevantes e de profissionais verificados participantes, criando um efeito de rede voltado à colaboração e à defesa coletiva entre organizações que enfrentam contextos de ameaça semelhantes.
+
+
 
 
 
