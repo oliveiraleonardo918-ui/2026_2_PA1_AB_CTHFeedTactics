@@ -837,17 +837,17 @@ ________________________________________________________________________________
 
 **O nosso produto** organiza informações sobre ameaças em feeds segmentados por indústria, permitindo que profissionais encontrem ataques, ofensores, IOCs e TTPs relevantes ao seu contexto, com integração a APIs e feeds reputacionais para checagem dos indicadores. Usuários verificados podem contribuir com IOCs e metodologias de ataque e acessar informações de contato de outros profissionais verificados, fortalecendo a colaboração e a inteligência coletiva entre organizações que enfrentam ameaças semelhantes, sem substituir ferramentas de análise, resposta, SIEM/SOAR ou canais externos de comunicação.
 
-# 9. Roadmap Estratégico de Negócio
+# 10. Roadmap Estratégico de Negócio
 
 O Roadmap Estratégico de Negócio do **CTHFeedTatics** organiza, em horizontes de curto, médio e longo prazo, as iniciativas necessárias para transformar a visão do produto em uma plataforma sustentável de inteligência de ameaças setorial. Diferente de um roadmap de produto — que trata de funcionalidades específicas —, este documento foca em **objetivos estratégicos**: entrada em mercado, construção de comunidade, definição de modelo de monetização, parcerias e expansão de canais.
 
 Considerando o uso intensivo de ferramentas de IA generativa, low-code/no-code e infraestrutura em nuvem gerenciada, o horizonte total do roadmap foi comprimido para **seis meses**, divididos em três fases sequenciais. Os prazos incluem os tempos de medição e avaliação da solução diante do mercado.
 
-## 9.1 Visão Aspiracional
+## 10.1 Visão Aspiracional
 
 Tornar o CTHFeedTatics a **principal referência aberta e não-vendor-based de inteligência de ameaças cibernéticas setorial no Brasil e na América Latina**, reconhecida por profissionais de segurança como o hub de consulta diária para identificar ameaças ativas em seu setor, validar indicadores e colaborar com pares verificados — reduzindo a assimetria informacional entre grandes corporações e organizações de pequeno e médio porte.
 
-## 9.2 Pilares Estratégicos
+## 10.2 Pilares Estratégicos
 
 Grandes áreas de foco que sustentam a visão. Todas as iniciativas do roadmap se ancoram em pelo menos um destes pilares:
 
@@ -863,7 +863,8 @@ Grandes áreas de foco que sustentam a visão. Todas as iniciativas do roadmap s
 
 6. **Compliance e segurança jurídica** — garantir aderência à LGPD, definir políticas de TLP (Traffic Light Protocol) e proteção jurídica para publicação e consumo de IOCs.
 
-## 9.3 Fases do Roadmap
+## 9
+10.3 Fases do Roadmap
 
 ### Fase 1 — Fundação e Validação (Mês 0 a Mês 2)
 
@@ -963,7 +964,7 @@ Grandes áreas de foco que sustentam a visão. Todas as iniciativas do roadmap s
 
 **Hipóteses validadas nesta fase:** disposição a pagar por camada corporativa · valor real da visão executiva para gestores · viabilidade da expansão LATAM sem perder foco setorial.
 
-## 9.4 Visão Consolidada do Roadmap
+## 10.4 Visão Consolidada do Roadmap
 
 | Horizonte | Foco Estratégico | Entregas-Chave | Pilares Dominantes |
 |---|---|---|---|
@@ -971,7 +972,7 @@ Grandes áreas de foco que sustentam a visão. Todas as iniciativas do roadmap s
 | **Médio prazo** (Mês 2–4) | Tração e Ecossistema | API pública · STIX/TAXII · publicação por verificados · diretório de contatos · alertas personalizados · parcerias com comunidades | Comunidade · Integrações · Aquisição |
 | **Longo prazo** (Mês 4–6) | Sustentabilidade e Expansão | Freemium e planos corporativos · dashboard executivo · expansão LATAM · parcerias com CSIRTs · reputação de contribuidores · compliance auditado | Monetização · Comunidade · Compliance |
 
-## 9.5 Validação Contínua e Adaptação
+## 10.5 Validação Contínua e Adaptação
 
 O roadmap deve ser revisado a cada fase com base em:
 
@@ -981,7 +982,7 @@ O roadmap deve ser revisado a cada fase com base em:
 
 A vantagem competitiva do CTHFeedTatics — segmentação setorial, contexto brasileiro/LATAM e independência de fabricantes — é **temporária**. Concorrentes globais podem regionalizar suas ofertas, e plataformas vendor-based podem tentar replicar o modelo comunitário. O roadmap deve, portanto, ser tratado como documento vivo, ajustado a cada ciclo com base em evidência.
 
-## 9.6 Ecossistema e Parcerias
+## 10.6 Ecossistema e Parcerias
 
 A construção de valor sustentável do CTHFeedTatics depende de um ecossistema ativo. As categorias de parceria priorizadas ao longo das três fases são:
 
