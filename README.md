@@ -837,8 +837,159 @@ ________________________________________________________________________________
 
 **O nosso produto** organiza informações sobre ameaças em feeds segmentados por indústria, permitindo que profissionais encontrem ataques, ofensores, IOCs e TTPs relevantes ao seu contexto, com integração a APIs e feeds reputacionais para checagem dos indicadores. Usuários verificados podem contribuir com IOCs e metodologias de ataque e acessar informações de contato de outros profissionais verificados, fortalecendo a colaboração e a inteligência coletiva entre organizações que enfrentam ameaças semelhantes, sem substituir ferramentas de análise, resposta, SIEM/SOAR ou canais externos de comunicação.
 
+# 9. Roadmap Estratégico de Negócio
 
+O Roadmap Estratégico de Negócio do **CTHFeedTatics** organiza, em horizontes de curto, médio e longo prazo, as iniciativas necessárias para transformar a visão do produto em uma plataforma sustentável de inteligência de ameaças setorial. Diferente de um roadmap de produto — que trata de funcionalidades específicas —, este documento foca em **objetivos estratégicos**: entrada em mercado, construção de comunidade, definição de modelo de monetização, parcerias e expansão de canais.
 
+Considerando o uso intensivo de ferramentas de IA generativa, low-code/no-code e infraestrutura em nuvem gerenciada, o horizonte total do roadmap foi comprimido para **seis meses**, divididos em três fases sequenciais. Os prazos incluem os tempos de medição e avaliação da solução diante do mercado.
 
+## 9.1 Visão Aspiracional
 
+Tornar o CTHFeedTatics a **principal referência aberta e não-vendor-based de inteligência de ameaças cibernéticas setorial no Brasil e na América Latina**, reconhecida por profissionais de segurança como o hub de consulta diária para identificar ameaças ativas em seu setor, validar indicadores e colaborar com pares verificados — reduzindo a assimetria informacional entre grandes corporações e organizações de pequeno e médio porte.
+
+## 9.2 Pilares Estratégicos
+
+Grandes áreas de foco que sustentam a visão. Todas as iniciativas do roadmap se ancoram em pelo menos um destes pilares:
+
+1. **Aquisição e ativação de usuários** — atrair profissionais de segurança do segmento-alvo e converter visitantes em usuários ativos recorrentes.
+
+2. **Confiança e verificação** — construir e sustentar a credibilidade da plataforma por meio de curadoria, processo de verificação e mecanismos de reputação de fontes.
+
+3. **Comunidade e efeito de rede** — habilitar contribuições verificadas e networking entre profissionais, criando o ciclo virtuoso descrito na síntese do modelo de negócio.
+
+4. **Integrações e ecossistema técnico** — conectar a plataforma às ferramentas que os usuários já operam (SIEM, SOAR, TIP, feeds reputacionais) via APIs e padrões como STIX/TAXII.
+
+5. **Sustentabilidade e monetização** — validar e implementar modelo de receita que preserve a independência não-vendor-based e permita cobrir custos operacionais.
+
+6. **Compliance e segurança jurídica** — garantir aderência à LGPD, definir políticas de TLP (Traffic Light Protocol) e proteção jurídica para publicação e consumo de IOCs.
+
+## 9.3 Fases do Roadmap
+
+### Fase 1 — Fundação e Validação (Mês 0 a Mês 2)
+
+**Objetivo estratégico:** validar hipóteses centrais da Matriz SCD com um MVP funcional e uma base inicial de usuários engajados no contexto brasileiro.
+
+**Pilares envolvidos:** Aquisição e ativação · Confiança e verificação · Compliance.
+
+**Iniciativas:**
+
+* **Lançamento do MVP web** com feed segmentado por indústria, cadastro básico, consulta de IOCs e TTPs e integração inicial com pelo menos um feed reputacional público (ex.: AbuseIPDB, VirusTotal em plano gratuito).
+
+* **Definição do processo de verificação de usuários** em versão inicial — validação manual por documento profissional, e-mail corporativo ou indicação de verificado existente.
+
+* **Curadoria manual assistida por IA** para popular o feed com informações setoriais durante o período de bootstrapping, enquanto a comunidade ainda não gera volume próprio.
+
+* **Publicação da política de TLP e termos de uso**, definindo regras claras de compartilhamento, responsabilidade sobre conteúdo publicado e tratamento de dados sob a LGPD.
+
+* **Foco geográfico e setorial inicial:** Brasil, com dois a três setores-piloto (ex.: financeiro, varejo, saúde) selecionados a partir das entrevistas realizadas.
+
+* **Aquisição orgânica em comunidades:** divulgação em grupos de segurança brasileiros (LinkedIn, Discord, Telegram), participação em eventos regionais (ex.: BSides locais, meetups de threat intel).
+
+**Métricas de saída da fase:**
+
+* 200 a 500 usuários cadastrados.
+* 30 a 50 usuários verificados ativos.
+* Pelo menos 100 IOCs setoriais consultáveis na plataforma.
+* Taxa de retorno semanal (WAU/MAU) ≥ 30%.
+* NPS inicial mensurado com base amostral.
+
+**Hipóteses validadas nesta fase:** dor de fragmentação · valor da segmentação por indústria · viabilidade do processo de verificação inicial.
+
+---
+
+### Fase 2 — Tração e Ecossistema (Mês 2 a Mês 4)
+
+**Objetivo estratégico:** transformar o MVP validado em uma plataforma com tração real, integrações técnicas e primeiros sinais de efeito de rede setorial.
+
+**Pilares envolvidos:** Comunidade e efeito de rede · Integrações e ecossistema técnico · Aquisição e ativação.
+
+**Iniciativas:**
+
+* **Lançamento da API pública de consulta de IOCs** com autenticação por token, permitindo que usuários integrem o CTHFeedTatics aos seus SIEMs e ferramentas de detecção.
+
+* **Suporte a exportação em formatos padrão** (STIX 2.1 e feeds TAXII básicos), removendo uma das lacunas apontadas pelo perfil N3/CSIRT nas entrevistas de aderência.
+
+* **Habilitação da publicação por usuários verificados** com fluxo estruturado (formulário guiado, validação automática do IOC contra feeds reputacionais antes da publicação, atribuição de TLP pelo autor).
+
+* **Diretório de verificados por indústria**, entregando o valor de networking identificado no mapa de empatia — com controles de privacidade e opt-in por parte do verificado.
+
+* **Alertas personalizados e digest por e-mail**, cobrindo uma das lacunas marcadas como "Ausente" na Matriz SCD.
+
+* **Parcerias iniciais** com uma ou duas comunidades brasileiras de segurança (ex.: BSides, CERT.br, capítulos regionais da OWASP) para divulgação cruzada e legitimação.
+
+* **Expansão setorial:** adicionar mais três a quatro indústrias além dos setores-piloto, guiada pela demanda observada na Fase 1.
+
+**Métricas de saída da fase:**
+
+* 1.500 a 3.000 usuários cadastrados.
+* 150 a 250 usuários verificados ativos.
+* Pelo menos 30% dos IOCs do feed originados por contribuições da comunidade (não apenas curadoria interna).
+* Ao menos 20 organizações consumindo a API ativamente.
+* Retenção mensal (M1→M2) ≥ 40%.
+
+**Hipóteses validadas nesta fase:** disposição a contribuir mediante verificação · valor real da API para N2/N3 · aceitação de TLP como mecanismo de compartilhamento controlado.
+
+---
+
+### Fase 3 — Sustentabilidade e Expansão (Mês 4 a Mês 6)
+
+**Objetivo estratégico:** consolidar modelo de monetização compatível com a proposta não-vendor-based, iniciar expansão para a América Latina e entregar recursos que sustentem a visão executiva demandada por gestores.
+
+**Pilares envolvidos:** Sustentabilidade e monetização · Comunidade e efeito de rede · Compliance.
+
+**Iniciativas:**
+
+* **Lançamento do modelo freemium**, com camada gratuita robusta (consulta, feed setorial, contribuição verificada) e camada paga voltada a organizações — planos corporativos com múltiplos assentos, cotas ampliadas de API, exportações avançadas e dashboards executivos.
+
+* **Dashboard executivo por indústria**, entregando a visão consolidada demandada pelo perfil gerencial nas entrevistas — indicadores agregados de ameaças ativas no setor, tendências, ofensores recorrentes.
+
+* **Expansão geográfica para LATAM**, começando por países hispano-falantes com contexto de ameaças próximo ao brasileiro (ex.: México, Argentina, Colômbia), com localização de interface e curadoria de conteúdo setorial regional.
+
+* **Parcerias com CSIRTs e CERTs regionais** para troca controlada de indicadores e legitimação institucional em cada mercado.
+
+* **Programa de contribuidores reconhecidos**, sistema de reputação para verificados que consistentemente publicam IOCs de qualidade — abordando o job social de "ganhar reputação na comunidade".
+
+* **Auditoria de compliance LGPD e revisão jurídica** com apoio externo, formalizando a proteção jurídica demandada pelo perfil gerencial.
+
+* **Programa de embaixadores acadêmicos** em universidades brasileiras com cursos de segurança da informação, apoiando aquisição de longo prazo e formação de comunidade.
+
+**Métricas de saída da fase:**
+
+* 5.000 a 10.000 usuários cadastrados.
+* 500+ usuários verificados ativos.
+* Pelo menos 3 organizações pagantes no plano corporativo (validação de disposição a pagar).
+* Presença de conteúdo setorial em ao menos 2 países além do Brasil.
+* Custo de aquisição por usuário verificado (CAC) mensurado e estável.
+
+**Hipóteses validadas nesta fase:** disposição a pagar por camada corporativa · valor real da visão executiva para gestores · viabilidade da expansão LATAM sem perder foco setorial.
+
+## 9.4 Visão Consolidada do Roadmap
+
+| Horizonte | Foco Estratégico | Entregas-Chave | Pilares Dominantes |
+|---|---|---|---|
+| **Curto prazo** (Mês 0–2) | Fundação e Validação | MVP web · verificação inicial · curadoria assistida por IA · TLP e LGPD básicos · foco Brasil, 2–3 setores | Aquisição · Confiança · Compliance |
+| **Médio prazo** (Mês 2–4) | Tração e Ecossistema | API pública · STIX/TAXII · publicação por verificados · diretório de contatos · alertas personalizados · parcerias com comunidades | Comunidade · Integrações · Aquisição |
+| **Longo prazo** (Mês 4–6) | Sustentabilidade e Expansão | Freemium e planos corporativos · dashboard executivo · expansão LATAM · parcerias com CSIRTs · reputação de contribuidores · compliance auditado | Monetização · Comunidade · Compliance |
+
+## 9.5 Validação Contínua e Adaptação
+
+O roadmap deve ser revisado a cada fase com base em:
+
+* **Métricas quantitativas** de aquisição, ativação, retenção e contribuição definidas em cada fase.
+* **Feedback qualitativo** dos usuários verificados via entrevistas periódicas e questionário estruturado (reaproveitando o roteiro da Seção 4).
+* **Sinais de mercado**: surgimento de concorrentes, mudanças regulatórias (ex.: evolução da LGPD, marco civil da IA), incidentes setoriais de grande impacto que alterem a demanda por certos verticais.
+
+A vantagem competitiva do CTHFeedTatics — segmentação setorial, contexto brasileiro/LATAM e independência de fabricantes — é **temporária**. Concorrentes globais podem regionalizar suas ofertas, e plataformas vendor-based podem tentar replicar o modelo comunitário. O roadmap deve, portanto, ser tratado como documento vivo, ajustado a cada ciclo com base em evidência.
+
+## 9.6 Ecossistema e Parcerias
+
+A construção de valor sustentável do CTHFeedTatics depende de um ecossistema ativo. As categorias de parceria priorizadas ao longo das três fases são:
+
+* **Provedores de feeds reputacionais** (Fase 1–2) — VirusTotal, AbuseIPDB, AlienVault OTX, MISP público.
+* **Comunidades brasileiras de segurança** (Fase 1–2) — BSides, CERT.br, OWASP, capítulos regionais.
+* **CSIRTs e CERTs governamentais e setoriais** (Fase 3) — para legitimação institucional e troca controlada.
+* **Instituições acadêmicas** (Fase 3) — programas de embaixadores e pesquisa aplicada.
+* **Provedores de infraestrutura em nuvem** (todas as fases) — parceria comercial que preserve independência editorial.
+
+Todas as parcerias devem ser avaliadas pelo critério **não-vendor-based**: nenhuma parceria pode conceder ao parceiro influência sobre a priorização, apresentação ou curadoria da inteligência exibida aos usuários.
 
