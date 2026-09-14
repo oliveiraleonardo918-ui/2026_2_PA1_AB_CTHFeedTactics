@@ -863,8 +863,8 @@ Grandes áreas de foco que sustentam a visão. Todas as iniciativas do roadmap s
 
 6. **Compliance e segurança jurídica** — garantir aderência à LGPD, definir políticas de TLP (Traffic Light Protocol) e proteção jurídica para publicação e consumo de IOCs.
 
-## 9
-10.3 Fases do Roadmap
+## 10.3
+Fases do Roadmap
 
 ### Fase 1 — Fundação e Validação (Mês 0 a Mês 2)
 
