@@ -674,6 +674,25 @@ O modelo do CTHFeedTatics pode ser resumido em um ciclo de geração de valor:
 
 Dessa forma, o valor da plataforma tende a aumentar conforme cresce a quantidade de informações relevantes e de profissionais verificados participantes, criando um efeito de rede voltado à colaboração e à defesa coletiva entre organizações que enfrentam contextos de ameaça semelhantes.
 
+_____________________________________________________________________________________________________________________________________________________________________________
+
+# Visão do Produto
+
+**Para** profissionais de tecnologia e segurança da informação responsáveis pela postura de segurança cibernética de organizações de diferentes portes, incluindo analistas de SOC, analistas de Threat Intelligence, engenheiros de detecção, Incident Responders, gestores de segurança, CISOs e profissionais de TI com responsabilidades de segurança.
+
+**Que dores** precisam acompanhar ameaças relevantes à sua indústria, identificar IOCs e TTPs e obter informações confiáveis sobre ataques, mas hoje dependem de múltiplas fontes dispersas, alertas genéricos e informações sem contexto setorial, gastando tempo na coleta e validação manual e tendo dificuldade para colaborar com profissionais de outras organizações do mesmo setor.
+
+**O** CTHFeedTatics
+
+**Que benefícios** centraliza inteligência de ameaças e organiza as informações de acordo com a indústria do usuário, reduzindo o ruído informacional e o tempo gasto na busca manual, facilitando a identificação de ameaças relevantes e oferecendo maior confiança nos IOCs por meio de integração com feeds reputacionais, além de possibilitar a contribuição e o contato entre profissionais verificados.
+
+**É uma** plataforma web de inteligência de ameaças cibernéticas segmentada por indústria, voltada à centralização, consulta, validação e compartilhamento de informações sobre ataques, ofensores, indicadores de comprometimento (IOCs) e técnicas, táticas e procedimentos (TTPs).
+
+**Diferente de** portais genéricos de notícias de segurança, feeds dispersos, grupos informais de comunicação, relatórios pagos de Threat Intelligence, comunidades com altas barreiras de entrada e plataformas vendor-based direcionadas por fabricantes de ferramentas de segurança.
+
+**O nosso produto** organiza informações sobre ameaças em feeds segmentados por indústria, permitindo que profissionais encontrem ataques, ofensores, IOCs e TTPs relevantes ao seu contexto, com integração a APIs e feeds reputacionais para checagem dos indicadores. Usuários verificados podem contribuir com IOCs e metodologias de ataque e acessar informações de contato de outros profissionais verificados, fortalecendo a colaboração e a inteligência coletiva entre organizações que enfrentam ameaças semelhantes, sem substituir ferramentas de análise, resposta, SIEM/SOAR ou canais externos de comunicação.
+
+
 
 
 
