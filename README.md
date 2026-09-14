@@ -673,9 +673,154 @@ O modelo do CTHFeedTatics pode ser resumido em um ciclo de geração de valor:
 **A base de inteligência setorial cresce e beneficia novamente a comunidade**
 
 Dessa forma, o valor da plataforma tende a aumentar conforme cresce a quantidade de informações relevantes e de profissionais verificados participantes, criando um efeito de rede voltado à colaboração e à defesa coletiva entre organizações que enfrentam contextos de ameaça semelhantes.
+__________________________________________________________________________________________________________________________________________________
+# 9. Canvas de Proposta de Valor
 
-_____________________________________________________________________________________________________________________________________________________________________________
+## 9.1 Profissionais de tecnologia e segurança da informação (usuários que consultam, validam e compartilham inteligência de ameaças)
 
+### 9.1.1 Tarefas
+
+* Monitorar continuamente ameaças cibernéticas direcionadas à indústria da organização.
+
+* Encontrar informações sobre ataques que estejam afetando empresas do mesmo setor.
+
+* Identificar rapidamente IOCs, como hashes, endereços IP, domínios e URLs relacionados às ameaças.
+
+* Identificar TTPs e metodologias utilizadas pelos ofensores.
+
+* Filtrar alertas e informações para identificar quais ameaças são realmente relevantes para o contexto da organização.
+
+* Validar tecnicamente IOCs antes de utilizá-los nos processos e ferramentas internas de segurança.
+
+* Acompanhar diferentes fontes de Threat Intelligence para identificar novas ameaças.
+
+* Compartilhar internamente informações relevantes com equipes de TI, segurança e gestores.
+
+* Compartilhar IOCs e metodologias de ataque identificados com outros profissionais do setor, quando possível e mediante verificação.
+
+* Encontrar profissionais verificados de outras organizações do mesmo setor para troca direta de informações quando necessário.
+
+### 9.1.2 Dores
+
+* Informações sobre ameaças estão dispersas entre diferentes feeds, sites, redes sociais, comunidades e relatórios.
+
+* Grande quantidade de alertas genéricos dificulta encontrar ameaças realmente relacionadas à indústria da organização.
+
+* A busca manual em diversas fontes consome tempo e não garante que as informações encontradas sejam relevantes.
+
+* Ataques contra empresas semelhantes podem ser descobertos tardiamente, reduzindo a capacidade de prevenção.
+
+* IOCs encontrados em alertas e fontes externas nem sempre possuem validação ou contexto suficiente.
+
+* A validação de indicadores exige consultas adicionais a feeds e serviços reputacionais.
+
+* Falta um ambiente centralizado para consumir e, quando autorizado, publicar informações sobre ataques relacionados ao setor.
+
+* Existe pouca comunicação e colaboração entre organizações de pequeno e médio porte que enfrentam ameaças semelhantes.
+
+* Comunidades especializadas, como ISACs e CERTs, podem possuir barreiras de entrada relacionadas a custo, formalidade ou processo.
+
+* Relatórios especializados de Threat Intelligence podem ser inacessíveis para organizações de menor porte.
+
+* Parte das informações disponíveis é produzida por fornecedores de segurança e pode estar associada à promoção de produtos e serviços específicos.
+
+### 9.1.3 Ganhos
+
+* Acesso centralizado a informações sobre ataques cibernéticos filtradas pela indústria da organização.
+
+* Feed atualizado de ameaças relevantes ao contexto setorial.
+
+* Economia de tempo ao reduzir a necessidade de consultar diversas fontes diariamente.
+
+* Maior facilidade para identificar IOCs e TTPs relacionados às ameaças relevantes.
+
+* Redução do ruído informacional por meio da segmentação das informações por indústria.
+
+* Maior confiança nos IOCs por meio da integração com feeds reputacionais.
+
+* Capacidade de antecipar ameaças que já estejam afetando empresas semelhantes.
+
+* Acesso mais acessível a inteligência de ameaças que normalmente pode estar restrita a relatórios e serviços pagos.
+
+* Possibilidade de contribuir com IOCs e metodologias de ataque mediante processo de verificação.
+
+* Acesso a uma rede de contatos de profissionais verificados da mesma indústria.
+
+* Maior confiança na postura de segurança da organização por meio de informações contextualizadas ao setor.
+
+### 9.1.4 Produtos
+
+* Plataforma web centralizada de inteligência de ameaças.
+
+* Feed de inteligência segmentado por indústria.
+
+* Informações sobre ataques cibernéticos direcionados a diferentes setores.
+
+* Informações sobre ofensores relacionados às ameaças publicadas.
+
+* Consulta de IOCs, incluindo hashes, endereços IP, domínios e URLs.
+
+* Consulta de TTPs e metodologias utilizadas nos ataques.
+
+* Integração com APIs e feeds reputacionais para checagem e enriquecimento de IOCs.
+
+* Sistema de classificação das informações de ameaças por indústria.
+
+* Sistema de autenticação e verificação de usuários.
+
+* Publicação de IOCs e metodologias de ataque por usuários verificados.
+
+* Acesso às informações de contato de outros profissionais verificados.
+
+* Mecanismos de moderação e curadoria das contribuições realizadas pela comunidade.
+
+### 9.1.5 Aliviadores de ganhos
+
+* Centraliza informações sobre ameaças para reduzir a necessidade de pesquisa manual em múltiplas fontes.
+
+* Reduz o excesso de informações genéricas ao organizar ameaças de acordo com a indústria do usuário.
+
+* Diminui o tempo gasto na coleta e curadoria manual de Threat Intelligence.
+
+* Facilita a identificação de ataques relevantes ao apresentar informações relacionadas a organizações e setores semelhantes.
+
+* Reduz a insegurança sobre IOCs ao adicionar informações provenientes de feeds reputacionais.
+
+* Diminui a necessidade de realizar separadamente parte das consultas reputacionais sobre os indicadores apresentados.
+
+* Reduz a fragmentação ao reunir ataques, ofensores, IOCs e TTPs em um ambiente centralizado.
+
+* Diminui o isolamento entre profissionais ao permitir que usuários verificados encontrem contatos de outros profissionais verificados.
+
+* Reduz as barreiras de acesso à inteligência setorial ao oferecer uma alternativa a comunidades e relatórios especializados mais restritos.
+
+* Diminui a dependência de conteúdo vendor-based por meio de uma abordagem independente de fabricantes específicos.
+
+### 9.1.6 Geradores de ganhos
+
+* Aumenta a velocidade de identificação de ameaças ao apresentar inteligência relacionada diretamente à indústria do usuário.
+
+* Melhora a capacidade de antecipação ao permitir acompanhar ameaças que já atingiram organizações semelhantes.
+
+* Aumenta a eficiência do profissional ao reduzir o tempo dedicado à coleta e filtragem manual de informações.
+
+* Aumenta a relevância da inteligência consumida ao relacionar ataques, ofensores, IOCs e TTPs ao contexto setorial.
+
+* Amplia a confiança nos indicadores ao combinar informações disponibilizadas na plataforma com dados de feeds reputacionais.
+
+* Facilita o acesso a inteligência de ameaças setorial para profissionais e organizações de diferentes portes.
+
+* Estimula a colaboração entre organizações ao permitir que usuários verificados publiquem IOCs e metodologias de ataque.
+
+* Facilita o contato entre profissionais verificados que enfrentam contextos de ameaça semelhantes.
+
+* Permite que informações identificadas em uma organização contribuam para a preparação de outras empresas do mesmo setor.
+
+* Amplia progressivamente a base de inteligência conforme novos IOCs, metodologias e informações relevantes são compartilhados.
+
+* Cria um efeito de rede no qual o crescimento das contribuições e da comunidade verificada aumenta o valor da plataforma para os demais usuários.
+
+__________________________________________________________________________________________________________________________________________________
 # Visão do Produto
 
 **Para** profissionais de tecnologia e segurança da informação responsáveis pela postura de segurança cibernética de organizações de diferentes portes, incluindo analistas de SOC, analistas de Threat Intelligence, engenheiros de detecção, Incident Responders, gestores de segurança, CISOs e profissionais de TI com responsabilidades de segurança.
