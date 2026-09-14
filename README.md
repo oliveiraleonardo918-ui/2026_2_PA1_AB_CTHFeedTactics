@@ -836,6 +836,7 @@ ________________________________________________________________________________
 **Diferente de** portais genéricos de notícias de segurança, feeds dispersos, grupos informais de comunicação, relatórios pagos de Threat Intelligence, comunidades com altas barreiras de entrada e plataformas vendor-based direcionadas por fabricantes de ferramentas de segurança.
 
 **O nosso produto** organiza informações sobre ameaças em feeds segmentados por indústria, permitindo que profissionais encontrem ataques, ofensores, IOCs e TTPs relevantes ao seu contexto, com integração a APIs e feeds reputacionais para checagem dos indicadores. Usuários verificados podem contribuir com IOCs e metodologias de ataque e acessar informações de contato de outros profissionais verificados, fortalecendo a colaboração e a inteligência coletiva entre organizações que enfrentam ameaças semelhantes, sem substituir ferramentas de análise, resposta, SIEM/SOAR ou canais externos de comunicação.
+__________________________________________________________________________________________________________________________________________________
 
 # 10. Roadmap Estratégico de Negócio
 
