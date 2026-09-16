@@ -994,3 +994,283 @@ A construção de valor sustentável do CTHFeedTatics depende de um ecossistema 
 
 Todas as parcerias devem ser avaliadas pelo critério **não-vendor-based**: nenhuma parceria pode conceder ao parceiro influência sobre a priorização, apresentação ou curadoria da inteligência exibida aos usuários.
 
+# 11. Proto-Personas e Jornadas do Usuário
+
+Como o CTHFeedTactics ainda está em fase de descoberta — com as quatro entrevistas exploratórias já realizadas, porém sem validação estatística ampla —, as representações abaixo são tratadas como **proto-personas**: versões iniciais e hipotéticas, ancoradas nos artefatos anteriores do projeto (Segmento de Cliente, Mapa de Empatia, JTBD, Business Model Canvas e Problem-Solution Fit), que serão refinadas conforme o volume de entrevistas aumentar.
+
+Cada proto-persona foi construída a partir de um perfil profissional distinto identificado no documento de Análise de Aderência: analista N1, analista N2 de investigação, engenheiro CSIRT/N3 e gestor de SOC. Elas compartilham o mesmo segmento de cliente definido na Seção 2, mas diferem em profundidade da dor, ferramentas usadas e resultados esperados da plataforma.
+
+## 11.1 Proto-Personas
+
+### Proto-Persona 1 — Enzo, o analista N1 apagando incêndio
+
+**Nome representativo:** Enzo, o analista N1 apagando incêndio
+**Nome descritivo:** Analista de SOC Nível 1 (Triagem de Alertas)
+
+**Dados demográficos:** 22–28 anos. Formação técnica ou superior em andamento em áreas de TI/Segurança. Baseado em capital brasileira. Trabalha em regime de turnos (24x7) em SOC terceirizado ou interno.
+
+**Comportamentos e hábitos:**
+
+* Consome informações de threat intel em fragmentos ao longo do turno — LinkedIn, Twitter/X, grupos de Telegram e Discord de segurança.
+* Depende de playbooks e runbooks para tomar decisão em cada alerta.
+* Escala para N2/N3 quando o alerta parece relevante mas falta contexto.
+* Prefere respostas rápidas, formato digest, informação já mastigada.
+
+**Necessidades e objetivos:**
+
+* Priorizar alertas com base em contexto setorial ("isso está atingindo empresas parecidas com a minha agora?").
+* Reduzir tempo de triagem por alerta.
+* Ganhar autonomia para decidir se um alerta escala ou fecha, sem depender só de N2.
+* Aprender sobre TTPs e ofensores ativos no setor durante o próprio trabalho.
+
+**Frustrações e dores:**
+
+* Alertas genéricos sem contexto setorial travam a decisão.
+* Excesso de fontes dispersas — não dá tempo de consultar tudo durante o turno.
+* Threat intel paga é inacessível na função dele; conteúdo grátis é raso ou vendor-based.
+* Sensação de estar sempre reagindo, nunca antecipando.
+
+**Canais e ferramentas:**
+
+* SIEM (Sentinel, Chronicle, Splunk, XSIAM ou similar) no dia a dia.
+* Slack/Teams internos para escalação.
+* Web pelo desktop de trabalho; celular pessoal para leitura fora do turno.
+* Grupos de Telegram/Discord de comunidade de segurança.
+
+**Citação representativa:**
+*"Chegou o alerta, eu tenho 15 minutos pra decidir se escalo ou fecho. Preciso saber se isso já bateu no meu setor hoje."*
+
+---
+
+### Proto-Persona 2 — Marina, a analista N2 de investigação
+
+**Nome representativo:** Marina, a analista N2 de investigação
+**Nome descritivo:** Analista de SOC Nível 2 (Investigação e Detection Engineering)
+
+**Dados demográficos:** 26–35 anos. Superior completo em áreas de TI/Segurança, geralmente com certificações intermediárias (Security+, CySA+, BTL1 ou equivalente). Baseada em capital brasileira, muitas vezes remoto. Trabalha em SOC interno de empresa média/grande ou em MSSP.
+
+**Comportamentos e hábitos:**
+
+* Investiga alertas escalados pelo N1 e conduz análises de incidentes de média complexidade.
+* Escreve e ajusta regras de detecção com base em TTPs observados no setor.
+* Acompanha relatórios de threat intel semanais e mensais quando o tempo permite.
+* Mantém um "caderno de notas" pessoal de IOCs e comportamentos recorrentes por vertical.
+
+**Necessidades e objetivos:**
+
+* Obter inteligência aplicável à investigação em andamento — IOCs enriquecidos, TTPs mapeados no MITRE ATT&CK, contexto do ofensor.
+* Correlacionar padrões observados no ambiente com o que outras empresas do setor estão vendo.
+* Reduzir tempo de investigação por caso.
+* Melhorar suas regras de detecção com base em inteligência setorial.
+
+**Frustrações e dores:**
+
+* Informação genérica não ajuda a decidir se um comportamento é campanha ativa ou ruído.
+* Falta de recorte setorial obriga a filtrar manualmente relatórios globais.
+* IOCs sem contexto (TLP, ofensor, data, alvo) exigem retrabalho antes de aplicar.
+* Dependência de comunidades informais para conseguir contexto rápido — não escala.
+
+**Canais e ferramentas:**
+
+* SIEM, EDR, TIP (quando existe), MISP (às vezes).
+* Ferramentas de OSINT (Shodan, Censys, VirusTotal, urlscan).
+* MITRE ATT&CK Navigator.
+* Comunidades técnicas (BSides, Discord, canais fechados).
+
+**Citação representativa:**
+*"Se eu souber que essa TTP já foi vista em outros três casos do meu setor esse mês, muda completamente como eu escrevo a regra."*
+
+---
+
+### Proto-Persona 3 — Paulo, o engenheiro CSIRT que quer dado integrável
+
+**Nome representativo:** Paulo, o engenheiro CSIRT que quer dado integrável
+**Nome descritivo:** Analista Sênior de CSIRT / Threat Intelligence Engineer
+
+**Dados demográficos:** 30–42 anos. Superior completo, frequentemente com pós-graduação em segurança da informação. Certificações avançadas (GCIH, GCTI, GCFA, OSCP ou equivalentes). Baseado em capital brasileira, atua em CSIRT interno de grande empresa, setor financeiro, energia ou governo.
+
+**Comportamentos e hábitos:**
+
+* Consome inteligência estruturada, prefere STIX/TAXII a leitura de blog post.
+* Automatiza ingestão de feeds em TIP interno (MISP, OpenCTI) e correlaciona com SIEM/SOAR.
+* Contribui com IOCs e TTPs para comunidades fechadas (ISACs setoriais, grupos entre CSIRTs).
+* Avalia fontes por reputação, cobertura setorial e frescor dos indicadores.
+
+**Necessidades e objetivos:**
+
+* Ingerir inteligência setorial via API/STIX/TAXII sem intervenção manual.
+* Validar automaticamente reputação e contexto de IOCs antes de aplicar em regras de bloqueio.
+* Compartilhar IOCs e TTPs de incidentes locais de forma controlada (TLP:AMBER, TLP:GREEN) com pares do setor.
+* Manter cobertura setorial brasileira/LATAM, que os feeds globais entregam mal.
+
+**Frustrações e dores:**
+
+* Feeds globais têm baixa relevância setorial local — muito ruído, pouco sinal.
+* ISACs brasileiros têm barreiras de entrada (custo, formalidade, vínculo institucional).
+* Plataformas vendor-based influenciam curadoria conforme o portfólio do fornecedor.
+* Falta de padrões (STIX/TAXII, TLP) em plataformas emergentes inviabiliza integração.
+
+**Canais e ferramentas:**
+
+* TIP (MISP, OpenCTI), SIEM, SOAR, EDR.
+* APIs, scripts Python de automação, cron jobs de ingestão.
+* GitHub para compartilhar sigmas, YARA e detections.
+* Comunidades fechadas (Signal, canais restritos, ISACs).
+
+**Citação representativa:**
+*"Se não tem API decente e STIX/TAXII, não entra no meu pipeline. Ponto."*
+
+---
+
+### Proto-Persona 4 — Edgar, o gestor de SOC responsável pelo risco
+
+**Nome representativo:** Edgar, o gestor de SOC responsável pelo risco
+**Nome descritivo:** Coordenador/Gerente de SOC (Gestão e Reporting Executivo)
+
+**Dados demográficos:** 35–50 anos. Superior completo, geralmente MBA ou pós em gestão de segurança. Certificações de gestão (CISSP, CISM, CRISC) além das técnicas. Baseado em capital brasileira, responde à diretoria de segurança (CISO) ou de TI.
+
+**Comportamentos e hábitos:**
+
+* Consome inteligência de forma consolidada — dashboards, digest semanal, relatórios executivos.
+* Prioriza decisões de investimento e priorização de defesa com base em risco setorial.
+* Aciona jurídico e compliance antes de aprovar compartilhamento externo de IOCs.
+* Cobra da equipe métricas de MTTR, cobertura de detecção e ameaças ativas no setor.
+
+**Necessidades e objetivos:**
+
+* Ter visão consolidada de ameaças ativas no seu setor no Brasil e LATAM.
+* Demonstrar postura de segurança embasada em inteligência para diretoria e conselho.
+* Compartilhar IOCs com pares setoriais sem gerar exposição jurídica ou violação de LGPD.
+* Reduzir custo total de inteligência sem comprometer qualidade.
+
+**Frustrações e dores:**
+
+* Relatórios pagos caros, com pouco recorte para o mercado brasileiro/LATAM.
+* Falta de segurança jurídica para compartilhamento de IOCs de incidentes internos.
+* Ausência de visão executiva consolidada — analistas trazem dados, mas ele precisa traduzir.
+* Fornecedores empurram inteligência atrelada a produto, o que enviesa a análise de risco.
+
+**Canais e ferramentas:**
+
+* Dashboards executivos, relatórios de compliance.
+* E-mail e reuniões com CISO, diretoria e jurídico.
+* Consultorias jurídicas para revisão de compartilhamento externo.
+* Fóruns executivos setoriais (associações, câmaras).
+
+**Citação representativa:**
+*"Não basta a informação ser boa. Ela precisa ser algo que eu consiga levar pra diretoria e algo que eu possa compartilhar sem virar processo."*
+
+## 11.2 Jornadas do Usuário
+
+As três jornadas abaixo cobrem os momentos em que o CTHFeedTactics entrega mais valor visível para cada proto-persona ativa em operação. Cada etapa descreve a ação, o sentimento do usuário e o touchpoint na plataforma.
+
+---
+
+### Jornada 1 — Enzo (Analista N1): triagem contextualizada de alerta ativo
+
+**Persona:** Enzo, o analista N1 apagando incêndio
+**Objetivo:** Decidir rapidamente se um alerta recebido no SIEM representa uma campanha ativa no setor da empresa e deve ser escalado, usando o CTHFeedTactics como fonte de contexto setorial no MVP.
+
+**1. Receber alerta no SIEM e identificar IOC suspeito**
+Descrição: Durante o turno, um alerta dispara com um IOC (hash, IP ou domínio) que não está em nenhuma lista interna de bloqueio.
+Sentimento do usuário: Preciso decidir rápido, não posso travar a fila de alertas.
+Touchpoint: SIEM (fora da plataforma) → decisão de consultar o CTHFeedTactics.
+
+**2. Abrir CTHFeedTactics e buscar o IOC**
+Descrição: Acessar a plataforma web, colar o IOC na busca global e verificar se já foi reportado.
+Sentimento do usuário: Quero uma resposta objetiva, não um relatório de 20 páginas.
+Touchpoint: Tela: Busca Global de IOC.
+
+**3. Filtrar por indústria do usuário**
+Descrição: Aplicar filtro pelo setor da própria empresa para ver apenas ocorrências relevantes ao contexto atual.
+Sentimento do usuário: Se bateu no meu setor recentemente, muda tudo.
+Touchpoint: Filtro Setorial (na tela de resultados).
+
+**4. Verificar validação automática por feed reputacional**
+Descrição: Consultar o card de reputação — score do IOC nos feeds reputacionais integrados e data da última observação.
+Sentimento do usuário: Se está sujo em fonte confiável, já tenho argumento para escalar.
+Touchpoint: Card de Reputação (integração com feeds).
+
+**5. Ler contexto do ataque publicado por verificado**
+Descrição: Abrir o post de contexto associado ao IOC — TTPs envolvidos (mapeados no MITRE), setor-alvo e data.
+Sentimento do usuário: Agora sei se é campanha ativa ou ruído antigo.
+Touchpoint: Seção: Contexto do Ataque (post do verificado).
+
+**6. Escalar para N2 ou fechar alerta com justificativa**
+Descrição: Copiar o link do post e o resumo do contexto para o ticket de escalação, ou fechar o alerta anexando a evidência de reputação limpa.
+Sentimento do usuário: Decisão tomada, com evidência anexa. Próximo alerta.
+Touchpoint: Ação: Copiar Link + Resumo (botão de compartilhar).
+
+---
+
+### Jornada 2 — Paulo (Engenheiro CSIRT): integração do feed setorial ao pipeline interno
+
+**Persona:** Paulo, o engenheiro CSIRT que quer dado integrável
+**Objetivo:** Integrar o CTHFeedTactics ao pipeline interno de threat intelligence, configurando ingestão automática de IOCs setoriais via API/STIX-TAXII, para que o time de detecção consuma os indicadores sem intervenção manual.
+
+**1. Acessar área de desenvolvedor e gerar token de API**
+Descrição: Navegar até a área de credenciais, criar um token de API vinculado ao usuário verificado, definir escopo (leitura, exportação STIX).
+Sentimento do usuário: Se o processo for simples, entra no pipeline hoje mesmo.
+Touchpoint: Área do Desenvolvedor (Gestão de Tokens).
+
+**2. Configurar filtro persistente por indústria e TLP**
+Descrição: Definir na plataforma um filtro salvo — setor da empresa, TLP máximo aceitável (ex.: até TLP:AMBER) e frescor mínimo dos IOCs.
+Sentimento do usuário: Quero controle fino, não um feed aberto.
+Touchpoint: Tela: Filtros Persistentes (por token).
+
+**3. Testar endpoint da API com o filtro configurado**
+Descrição: Executar chamada de teste (curl/Postman) contra o endpoint REST usando o token, validar o payload JSON retornado e verificar campos esperados (IOC, tipo, TLP, setor, data, ofensor).
+Sentimento do usuário: Se o schema for consistente, adoto sem revisar contrato depois.
+Touchpoint: Endpoint REST: /api/v1/iocs (com filtro).
+
+**4. Configurar exportação em STIX 2.1 via TAXII**
+Descrição: Habilitar o canal TAXII na plataforma, obter a URL do collection setorial e configurar o cliente TAXII interno para pull periódico.
+Sentimento do usuário: STIX/TAXII garante que dá pra plugar no MISP e no TIP direto.
+Touchpoint: Tela: Configuração TAXII (Collection Setorial).
+
+**5. Ingerir IOCs no TIP interno e propagar para SIEM/EDR**
+Descrição: Validar que o TIP interno (MISP ou OpenCTI) recebeu os IOCs, revisar duplicidade com feeds já existentes e propagar as listas de bloqueio para SIEM, EDR e firewalls via SOAR.
+Sentimento do usuário: Pipeline fechado, sem toque manual.
+Touchpoint: Fora da plataforma (TIP interno).
+
+**6. Monitorar taxa de acerto e ajustar filtro**
+Descrição: Após uma semana de ingestão, revisar quantos IOCs do CTHFeedTactics geraram detecção positiva no ambiente e ajustar o filtro salvo se houver ruído.
+Sentimento do usuário: Se o sinal for bom, aumento o escopo. Se for ruído, corto.
+Touchpoint: Tela: Métricas de Consumo (por token de API).
+
+---
+
+### Jornada 3 — Edgar (Gestor SOC): compartilhamento controlado de IOC pós-incidente
+
+**Persona:** Edgar, o gestor de SOC responsável pelo risco
+**Objetivo:** Compartilhar com a comunidade setorial verificada os IOCs identificados durante um incidente interno recente, de forma controlada por TLP e juridicamente segura, contribuindo para a defesa coletiva sem expor a empresa.
+
+**1. Concluir a resposta a incidente e consolidar lista de IOCs**
+Descrição: Após contenção e erradicação, revisar com o time de resposta a lista final de IOCs (hashes, IPs, domínios, contas comprometidas de infra externa) que podem ser publicados.
+Sentimento do usuário: Contribuir com o setor é importante, mas não posso expor a empresa.
+Touchpoint: Fora da plataforma (relatório interno de incidente).
+
+**2. Validar juridicamente o que pode ser compartilhado**
+Descrição: Consultar jurídico/compliance sobre quais IOCs podem sair (regra geral: IOCs de infra do atacante, nunca dados internos), com respaldo nos termos da plataforma e política de TLP.
+Sentimento do usuário: Preciso de respaldo antes de assinar embaixo.
+Touchpoint: Fora da plataforma (jurídico interno) + Política de TLP da plataforma (consulta).
+
+**3. Acessar área de publicação como usuário verificado**
+Descrição: Entrar na plataforma, acessar a área de publicação e iniciar novo post de contexto de ataque.
+Sentimento do usuário: Interface simples, quero terminar em 10 minutos.
+Touchpoint: Tela: Nova Publicação (Verificado).
+
+**4. Preencher contexto sem expor a empresa**
+Descrição: Descrever setor-alvo (sem nomear a empresa), TTPs observados (mapeadas no MITRE ATT&CK), timeline aproximada e IOCs de infra do atacante. Escolher classificação TLP (ex.: TLP:AMBER — visível apenas a verificados do mesmo setor).
+Sentimento do usuário: Se o TLP funciona como promete, ficaria confortável em publicar.
+Touchpoint: Tela: Formulário Guiado de Publicação (com campo TLP).
+
+**5. Rodar validação automática dos IOCs antes de publicar**
+Descrição: A plataforma valida cada IOC contra os feeds reputacionais e aponta duplicidades, sinais de falso positivo e correspondência com campanhas conhecidas. Revisar e ajustar.
+Sentimento do usuário: Bom saber que não vou publicar lixo por engano.
+Touchpoint: Componente: Pré-validação de IOCs (antes do publish).
+
+**6. Publicar com TLP definido e monitorar interações**
+Descrição: Confirmar publicação com TLP:AMBER para o setor. Acompanhar quantos verificados visualizaram e reações/confirmações ("também vimos isso") de pares.
+Sentimento do usuário: Tranquilidade — contribuí, tenho respaldo e vejo retorno da comunidade.
+Touchpoint: Tela: Meus Posts (métricas por publicação).
