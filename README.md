@@ -1160,6 +1160,52 @@ Cada proto-persona foi construída a partir de um perfil profissional distinto i
 **Citação representativa:**
 *"Não basta a informação ser boa. Ela precisa ser algo que eu consiga levar pra diretoria e algo que eu possa compartilhar sem virar processo."*
 
+---
+
+### Proto-Persona 5 — Rafael, o profissional de TI que também cuida da segurança
+
+**Nome representativo:** Rafael, o profissional de TI generalista  
+**Nome descritivo:** Analista de Infraestrutura/TI com responsabilidades de segurança
+
+**Dados demográficos:** 27–40 anos. Formação técnica ou superior em TI, Redes, Sistemas de Informação ou áreas relacionadas. Trabalha em empresa de pequeno ou médio porte, normalmente sem SOC próprio e sem equipe dedicada de Threat Intelligence.
+
+**Comportamentos e hábitos:**
+
+* Divide seu tempo entre infraestrutura, suporte, redes, administração de sistemas e segurança.
+* Não acompanha feeds especializados de Threat Intelligence continuamente porque não possui tempo nem equipe dedicada.
+* Busca informações principalmente quando surge uma notícia relevante, um alerta interno ou um incidente em outra empresa do mesmo setor.
+* Utiliza fontes gratuitas, grupos profissionais, portais de tecnologia e ferramentas de reputação para investigar indicadores quando necessário.
+* Prefere informações resumidas, contextualizadas e diretamente relacionadas à realidade da empresa.
+
+**Necessidades e objetivos:**
+
+* Saber rapidamente quais ameaças estão atingindo empresas do mesmo setor.
+* Identificar IOCs relevantes sem precisar compreender ou operar plataformas complexas de Threat Intelligence.
+* Reduzir o tempo gasto pesquisando informações em diferentes fontes.
+* Obter contexto suficiente para saber quando uma ameaça merece atenção imediata.
+* Encontrar profissionais mais especializados do mesmo setor quando precisar de orientação ou troca de informação.
+
+**Frustrações e dores:**
+
+* Não possui equipe especializada para acompanhar continuamente o cenário de ameaças.
+* Muitas plataformas de segurança são complexas ou voltadas a organizações com estruturas maiores.
+* Informações encontradas em notícias normalmente não possuem IOCs ou detalhes técnicos úteis.
+* Feeds públicos podem apresentar grande volume de dados sem indicar o que realmente importa para sua indústria.
+* Relatórios comerciais de Threat Intelligence podem ser caros demais para empresas menores.
+* Muitas vezes descobre ameaças relevantes somente depois que outras organizações já foram afetadas.
+
+**Canais e ferramentas:**
+
+* Plataforma web pelo computador de trabalho.
+* E-mail para alertas e comunicação.
+* Firewall, antivírus/EDR e ferramentas básicas de monitoramento.
+* LinkedIn, Telegram, WhatsApp e comunidades profissionais.
+* VirusTotal, AbuseIPDB e outras ferramentas gratuitas de consulta quando necessário.
+
+**Citação representativa:**
+
+*"Eu não preciso acompanhar todas as ameaças do mundo. Preciso saber quais delas podem atingir a minha empresa e o que já está acontecendo no meu setor."*
+
 ## 11.2 Jornadas do Usuário
 
 As três jornadas abaixo representam situações em que o CTHFeedTactics entrega valor para diferentes perfis de usuários. Embora algumas ações ocorram em ferramentas externas utilizadas pelos profissionais, a **plataforma web do CTHFeedTactics é o principal ponto de acesso às informações**, permitindo consultar o feed setorial, pesquisar IOCs e TTPs, visualizar informações sobre ataques e ofensores, validar indicadores e, para usuários verificados, publicar informações e acessar recursos adicionais.
@@ -1386,3 +1432,165 @@ Posteriormente, Edgar pode retornar ao site para visualizar a publicação e aco
 **Sentimento do usuário:** "Nossa experiência agora pode ajudar outras organizações do setor a identificar a mesma ameaça mais cedo."
 
 **Touchpoint:** Plataforma Web → Publicação → Feed Setorial.
+
+---
+
+### Jornada 4 — Rafael: monitoramento diário de ameaças relevantes à empresa
+
+**Persona:** Rafael, o profissional de TI generalista  
+**Objetivo:** Utilizar o site do CTHFeedTactics como fonte rápida de acompanhamento de ameaças relevantes à indústria da empresa, sem precisar consultar diversas fontes externas todos os dias.
+
+**1. Acessar o CTHFeedTactics no início do expediente**
+
+**Descrição:** Rafael abre a plataforma web durante sua rotina diária e realiza login. Como sua conta já possui a indústria da empresa cadastrada, a página inicial apresenta prioritariamente conteúdos relacionados ao seu setor.
+
+**Sentimento do usuário:** "Quero saber se aconteceu alguma coisa importante antes de começar o resto do trabalho."
+
+**Touchpoint:** Plataforma Web → Login → Página Inicial.
+
+---
+
+**2. Visualizar o feed personalizado por indústria**
+
+**Descrição:** Rafael percorre o feed setorial e identifica ataques, campanhas, ofensores, IOCs ou TTPs registrados recentemente contra organizações semelhantes à sua.
+
+A plataforma reduz a quantidade de informações genéricas e apresenta principalmente aquilo que possui relação com o setor cadastrado.
+
+**Sentimento do usuário:** "Isso é muito mais fácil do que abrir cinco sites diferentes."
+
+**Touchpoint:** Plataforma Web → Feed Setorial.
+
+---
+
+**3. Identificar uma ameaça potencialmente relevante**
+
+**Descrição:** Uma publicação informa que empresas do mesmo setor estão sendo alvo de uma nova campanha. Rafael abre a publicação para verificar os detalhes disponíveis.
+
+**Sentimento do usuário:** "Se empresas parecidas com a nossa estão sendo atacadas, preciso olhar isso com atenção."
+
+**Touchpoint:** Plataforma Web → Feed → Publicação de Ataque.
+
+---
+
+**4. Consultar IOCs e TTPs associados**
+
+**Descrição:** Na página do ataque, Rafael verifica os endereços IP, domínios, hashes e demais indicadores associados, além das TTPs registradas.
+
+Ele também consulta as informações reputacionais adicionadas pelas integrações da plataforma.
+
+**Sentimento do usuário:** "Agora consigo verificar se algo disso já apareceu na nossa rede."
+
+**Touchpoint:** Plataforma Web → Página do Ataque → IOCs / TTPs / Reputação.
+
+---
+
+**5. Comparar os indicadores com o ambiente da empresa**
+
+**Descrição:** Rafael consulta suas próprias ferramentas de segurança, logs, firewall ou EDR para verificar se algum dos indicadores apresentados pelo CTHFeedTactics apareceu no ambiente da empresa.
+
+**Sentimento do usuário:** "Até agora não encontramos nada, mas pelo menos sei exatamente o que procurar."
+
+**Touchpoint:** CTHFeedTactics → Ferramentas internas da organização.
+
+---
+
+**6. Salvar ou compartilhar a ameaça com a equipe**
+
+**Descrição:** Caso considere a publicação importante, Rafael copia o link da página ou salva a informação para consulta posterior e compartilha o alerta com colegas ou gestores responsáveis.
+
+**Sentimento do usuário:** "Agora a equipe sabe o que deve observar."
+
+**Touchpoint:** Plataforma Web → Compartilhar/Salvar → Comunicação interna.
+
+---
+
+**7. Retornar periodicamente ao feed**
+
+**Descrição:** O CTHFeedTactics passa a integrar sua rotina de consulta. Rafael retorna ao site para verificar novas ameaças relacionadas à indústria sem precisar manter uma rotina manual em diversas fontes externas.
+
+**Sentimento do usuário:** "Tenho um ponto central para acompanhar o que realmente interessa à nossa empresa."
+
+**Touchpoint:** Plataforma Web → Feed Setorial.
+
+---
+
+### Jornada 5 — Marina: localizar e entrar em contato com outro profissional verificado
+
+**Persona:** Marina, analista N2 de investigação  
+**Objetivo:** Encontrar, por meio da plataforma web, um profissional verificado da mesma indústria que possa fornecer contexto adicional sobre uma ameaça observada em diferentes organizações.
+
+**1. Investigar uma ameaça com contexto insuficiente**
+
+**Descrição:** Durante uma investigação, Marina identifica um conjunto de IOCs e comportamentos suspeitos. O CTHFeedTactics mostra que indicadores semelhantes já foram associados a ataques em outras empresas de sua indústria, mas as informações disponíveis não esclarecem completamente o comportamento observado.
+
+**Sentimento do usuário:** "Existe alguma coisa acontecendo no setor, mas ainda está faltando contexto."
+
+**Touchpoint:** Plataforma Web → Busca → Página do IOC/Ataque.
+
+---
+
+**2. Consultar publicações relacionadas**
+
+**Descrição:** Marina utiliza a plataforma para localizar publicações relacionadas aos mesmos IOCs, TTPs ou ofensor e percebe que parte das informações foi compartilhada por usuários verificados.
+
+**Sentimento do usuário:** "Talvez alguém que já tenha visto isso consiga confirmar o padrão."
+
+**Touchpoint:** Plataforma Web → Resultados Relacionados → Publicações.
+
+---
+
+**3. Acessar o diretório de profissionais verificados**
+
+**Descrição:** Marina abre a área de profissionais verificados e aplica filtros para localizar usuários associados à mesma indústria ou área profissional.
+
+A plataforma apresenta somente as informações de contato disponibilizadas pelos próprios usuários conforme suas configurações de privacidade.
+
+**Sentimento do usuário:** "Quero encontrar alguém relevante, não simplesmente uma lista enorme de pessoas."
+
+**Touchpoint:** Plataforma Web → Diretório de Verificados → Filtro por Indústria.
+
+---
+
+**4. Analisar o perfil profissional**
+
+**Descrição:** Marina abre o perfil de um profissional verificado e consulta as informações disponibilizadas, como função, setor de atuação e formas de contato autorizadas.
+
+Ela verifica se aquele profissional parece ter relação com o tipo de ameaça que está investigando.
+
+**Sentimento do usuário:** "Esse perfil parece trabalhar com exatamente o tipo de problema que estou vendo."
+
+**Touchpoint:** Plataforma Web → Perfil de Usuário Verificado.
+
+---
+
+**5. Obter o contato do profissional**
+
+**Descrição:** Como usuária verificada, Marina acessa a forma de contato disponibilizada pelo profissional e decide iniciar uma conversa externamente.
+
+O CTHFeedTactics não oferece chat interno; sua função é facilitar a descoberta do profissional e disponibilizar o contato autorizado.
+
+**Sentimento do usuário:** "A plataforma me levou até a pessoa certa sem tentar virar mais um aplicativo de mensagens."
+
+**Touchpoint:** Plataforma Web → Perfil Verificado → Informação de Contato.
+
+---
+
+**6. Realizar a troca de informações fora da plataforma**
+
+**Descrição:** Marina entra em contato pelo canal disponibilizado, como e-mail ou outra forma autorizada, e troca informações técnicas respeitando as políticas e procedimentos das organizações envolvidas.
+
+**Sentimento do usuário:** "Agora consigo confirmar se o comportamento que estamos vendo também ocorreu em outra organização."
+
+**Touchpoint:** Ferramenta externa de comunicação.
+
+---
+
+**7. Utilizar o novo contexto na investigação**
+
+**Descrição:** Com as informações adicionais obtidas, Marina retorna à investigação interna e compara os novos dados com os eventos observados em seu ambiente.
+
+Quando adequado, ela também pode voltar ao CTHFeedTactics para consultar ou contribuir com informações complementares.
+
+**Sentimento do usuário:** "A informação da comunidade ajudou a transformar um indicador isolado em contexto útil."
+
+**Touchpoint:** Comunicação externa → CTHFeedTactics → Ferramentas internas de investigação.
