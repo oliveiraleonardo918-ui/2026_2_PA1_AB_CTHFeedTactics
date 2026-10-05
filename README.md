@@ -1241,12 +1241,19 @@ Cada etapa apresenta a ação realizada pelo usuário, seu sentimento durante a 
 
 ---
 
-### Jornada 1 — Enzo (Analista N1): consulta e triagem contextualizada de alerta
+### Jornada 1 — Enzo (Analista N1): Cadastro, consulta e triagem contextualizada de alerta
 
-**Persona:** Enzo, o analista N1 apagando incêndio  
-**Objetivo:** Utilizar a plataforma web do CTHFeedTactics para obter rapidamente contexto sobre um IOC identificado durante a triagem de um alerta e decidir se o caso deve ser escalado.
+**1. Cadastro na plataforma para acesso aos IOCs**
 
-**1. Receber um alerta e identificar um IOC suspeito**
+**Descrição:** Antes do primeiro uso em produção, Enzo acessa o CTHFeedTactics pelo navegador e realiza o cadastro informando dados profissionais básicos, indústria de atuação da organização e e-mail corporativo. Após a confirmação do e-mail, ele configura o perfil setorial para que o feed inicial já seja apresentado com conteúdo direcionado à sua indústria.
+
+**Sentimento do usuário:** "Quero concluir esse cadastro rápido para já começar a usar a plataforma quando precisar."
+
+**Touchpoint:** Plataforma Web → Tela de Cadastro → Confirmação de E-mail → Configuração de Perfil Setorial.
+
+---
+
+**2. Receber um alerta e identificar um IOC suspeito**
 
 **Descrição:** Durante o turno no SOC, Enzo recebe um alerta no SIEM contendo um hash, endereço IP, domínio ou URL suspeita. O indicador não possui contexto suficiente para permitir uma decisão imediata.
 
@@ -1256,7 +1263,7 @@ Cada etapa apresenta a ação realizada pelo usuário, seu sentimento durante a 
 
 ---
 
-**2. Acessar o site do CTHFeedTactics**
+**3. Acessar o site do CTHFeedTactics**
 
 **Descrição:** Enzo abre o CTHFeedTactics pelo navegador e realiza login. Ao entrar, visualiza a página inicial com o feed de inteligência relacionado à indústria cadastrada em seu perfil.
 
@@ -1268,7 +1275,7 @@ Antes mesmo de pesquisar o IOC, ele pode verificar se existem ataques, campanhas
 
 ---
 
-**3. Pesquisar o IOC na plataforma**
+**4. Pesquisar o IOC na plataforma**
 
 **Descrição:** Enzo utiliza a barra de busca do site para pesquisar diretamente o IOC identificado no SIEM. A plataforma apresenta resultados relacionados ao indicador, incluindo ocorrências registradas, ataques associados e informações disponíveis sobre sua reputação.
 
@@ -1278,7 +1285,7 @@ Antes mesmo de pesquisar o IOC, ele pode verificar se existem ataques, campanhas
 
 ---
 
-**4. Consultar contexto setorial e informações relacionadas**
+**5. Consultar contexto setorial e informações relacionadas**
 
 **Descrição:** Na página de resultados, Enzo verifica se o IOC apareceu recentemente em ataques direcionados à sua indústria. Ele pode acessar informações relacionadas ao ataque, ao ofensor e às TTPs registradas.
 
