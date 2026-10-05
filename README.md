@@ -1162,115 +1162,227 @@ Cada proto-persona foi construída a partir de um perfil profissional distinto i
 
 ## 11.2 Jornadas do Usuário
 
-As três jornadas abaixo cobrem os momentos em que o CTHFeedTactics entrega mais valor visível para cada proto-persona ativa em operação. Cada etapa descreve a ação, o sentimento do usuário e o touchpoint na plataforma.
+As três jornadas abaixo representam situações em que o CTHFeedTactics entrega valor para diferentes perfis de usuários. Embora algumas ações ocorram em ferramentas externas utilizadas pelos profissionais, a **plataforma web do CTHFeedTactics é o principal ponto de acesso às informações**, permitindo consultar o feed setorial, pesquisar IOCs e TTPs, visualizar informações sobre ataques e ofensores, validar indicadores e, para usuários verificados, publicar informações e acessar recursos adicionais.
+
+Cada etapa apresenta a ação realizada pelo usuário, seu sentimento durante a atividade e o principal ponto de contato com o CTHFeedTactics.
 
 ---
 
-### Jornada 1 — Enzo (Analista N1): triagem contextualizada de alerta ativo
+### Jornada 1 — Enzo (Analista N1): consulta e triagem contextualizada de alerta
 
-**Persona:** Enzo, o analista N1 apagando incêndio
-**Objetivo:** Decidir rapidamente se um alerta recebido no SIEM representa uma campanha ativa no setor da empresa e deve ser escalado, usando o CTHFeedTactics como fonte de contexto setorial no MVP.
+**Persona:** Enzo, o analista N1 apagando incêndio  
+**Objetivo:** Utilizar a plataforma web do CTHFeedTactics para obter rapidamente contexto sobre um IOC identificado durante a triagem de um alerta e decidir se o caso deve ser escalado.
 
-**1. Receber alerta no SIEM e identificar IOC suspeito**
-Descrição: Durante o turno, um alerta dispara com um IOC (hash, IP ou domínio) que não está em nenhuma lista interna de bloqueio.
-Sentimento do usuário: Preciso decidir rápido, não posso travar a fila de alertas.
-Touchpoint: SIEM (fora da plataforma) → decisão de consultar o CTHFeedTactics.
+**1. Receber um alerta e identificar um IOC suspeito**
 
-**2. Abrir CTHFeedTactics e buscar o IOC**
-Descrição: Acessar a plataforma web, colar o IOC na busca global e verificar se já foi reportado.
-Sentimento do usuário: Quero uma resposta objetiva, não um relatório de 20 páginas.
-Touchpoint: Tela: Busca Global de IOC.
+**Descrição:** Durante o turno no SOC, Enzo recebe um alerta no SIEM contendo um hash, endereço IP, domínio ou URL suspeita. O indicador não possui contexto suficiente para permitir uma decisão imediata.
 
-**3. Filtrar por indústria do usuário**
-Descrição: Aplicar filtro pelo setor da própria empresa para ver apenas ocorrências relevantes ao contexto atual.
-Sentimento do usuário: Se bateu no meu setor recentemente, muda tudo.
-Touchpoint: Filtro Setorial (na tela de resultados).
+**Sentimento do usuário:** "Preciso descobrir rapidamente se isso é realmente relevante."
 
-**4. Verificar validação automática por feed reputacional**
-Descrição: Consultar o card de reputação — score do IOC nos feeds reputacionais integrados e data da última observação.
-Sentimento do usuário: Se está sujo em fonte confiável, já tenho argumento para escalar.
-Touchpoint: Card de Reputação (integração com feeds).
-
-**5. Ler contexto do ataque publicado por verificado**
-Descrição: Abrir o post de contexto associado ao IOC — TTPs envolvidos (mapeados no MITRE), setor-alvo e data.
-Sentimento do usuário: Agora sei se é campanha ativa ou ruído antigo.
-Touchpoint: Seção: Contexto do Ataque (post do verificado).
-
-**6. Escalar para N2 ou fechar alerta com justificativa**
-Descrição: Copiar o link do post e o resumo do contexto para o ticket de escalação, ou fechar o alerta anexando a evidência de reputação limpa.
-Sentimento do usuário: Decisão tomada, com evidência anexa. Próximo alerta.
-Touchpoint: Ação: Copiar Link + Resumo (botão de compartilhar).
+**Touchpoint:** SIEM da organização (fora da plataforma).
 
 ---
 
-### Jornada 2 — Paulo (Engenheiro CSIRT): integração do feed setorial ao pipeline interno
+**2. Acessar o site do CTHFeedTactics**
 
-**Persona:** Paulo, o engenheiro CSIRT que quer dado integrável
-**Objetivo:** Integrar o CTHFeedTactics ao pipeline interno de threat intelligence, configurando ingestão automática de IOCs setoriais via API/STIX-TAXII, para que o time de detecção consuma os indicadores sem intervenção manual.
+**Descrição:** Enzo abre o CTHFeedTactics pelo navegador e realiza login. Ao entrar, visualiza a página inicial com o feed de inteligência relacionado à indústria cadastrada em seu perfil.
 
-**1. Acessar área de desenvolvedor e gerar token de API**
-Descrição: Navegar até a área de credenciais, criar um token de API vinculado ao usuário verificado, definir escopo (leitura, exportação STIX).
-Sentimento do usuário: Se o processo for simples, entra no pipeline hoje mesmo.
-Touchpoint: Área do Desenvolvedor (Gestão de Tokens).
+Antes mesmo de pesquisar o IOC, ele pode verificar se existem ataques, campanhas ou ofensores recentemente associados ao seu setor.
 
-**2. Configurar filtro persistente por indústria e TLP**
-Descrição: Definir na plataforma um filtro salvo — setor da empresa, TLP máximo aceitável (ex.: até TLP:AMBER) e frescor mínimo dos IOCs.
-Sentimento do usuário: Quero controle fino, não um feed aberto.
-Touchpoint: Tela: Filtros Persistentes (por token).
+**Sentimento do usuário:** "Quero encontrar a informação sem precisar abrir várias fontes diferentes."
 
-**3. Testar endpoint da API com o filtro configurado**
-Descrição: Executar chamada de teste (curl/Postman) contra o endpoint REST usando o token, validar o payload JSON retornado e verificar campos esperados (IOC, tipo, TLP, setor, data, ofensor).
-Sentimento do usuário: Se o schema for consistente, adoto sem revisar contrato depois.
-Touchpoint: Endpoint REST: /api/v1/iocs (com filtro).
-
-**4. Configurar exportação em STIX 2.1 via TAXII**
-Descrição: Habilitar o canal TAXII na plataforma, obter a URL do collection setorial e configurar o cliente TAXII interno para pull periódico.
-Sentimento do usuário: STIX/TAXII garante que dá pra plugar no MISP e no TIP direto.
-Touchpoint: Tela: Configuração TAXII (Collection Setorial).
-
-**5. Ingerir IOCs no TIP interno e propagar para SIEM/EDR**
-Descrição: Validar que o TIP interno (MISP ou OpenCTI) recebeu os IOCs, revisar duplicidade com feeds já existentes e propagar as listas de bloqueio para SIEM, EDR e firewalls via SOAR.
-Sentimento do usuário: Pipeline fechado, sem toque manual.
-Touchpoint: Fora da plataforma (TIP interno).
-
-**6. Monitorar taxa de acerto e ajustar filtro**
-Descrição: Após uma semana de ingestão, revisar quantos IOCs do CTHFeedTactics geraram detecção positiva no ambiente e ajustar o filtro salvo se houver ruído.
-Sentimento do usuário: Se o sinal for bom, aumento o escopo. Se for ruído, corto.
-Touchpoint: Tela: Métricas de Consumo (por token de API).
+**Touchpoint:** Plataforma Web → Login → Página Inicial / Feed Setorial.
 
 ---
 
-### Jornada 3 — Edgar (Gestor SOC): compartilhamento controlado de IOC pós-incidente
+**3. Pesquisar o IOC na plataforma**
 
-**Persona:** Edgar, o gestor de SOC responsável pelo risco
-**Objetivo:** Compartilhar com a comunidade setorial verificada os IOCs identificados durante um incidente interno recente, de forma controlada por TLP e juridicamente segura, contribuindo para a defesa coletiva sem expor a empresa.
+**Descrição:** Enzo utiliza a barra de busca do site para pesquisar diretamente o IOC identificado no SIEM. A plataforma apresenta resultados relacionados ao indicador, incluindo ocorrências registradas, ataques associados e informações disponíveis sobre sua reputação.
 
-**1. Concluir a resposta a incidente e consolidar lista de IOCs**
-Descrição: Após contenção e erradicação, revisar com o time de resposta a lista final de IOCs (hashes, IPs, domínios, contas comprometidas de infra externa) que podem ser publicados.
-Sentimento do usuário: Contribuir com o setor é importante, mas não posso expor a empresa.
-Touchpoint: Fora da plataforma (relatório interno de incidente).
+**Sentimento do usuário:** "Preciso de uma resposta objetiva para saber se continuo investigando."
 
-**2. Validar juridicamente o que pode ser compartilhado**
-Descrição: Consultar jurídico/compliance sobre quais IOCs podem sair (regra geral: IOCs de infra do atacante, nunca dados internos), com respaldo nos termos da plataforma e política de TLP.
-Sentimento do usuário: Preciso de respaldo antes de assinar embaixo.
-Touchpoint: Fora da plataforma (jurídico interno) + Política de TLP da plataforma (consulta).
+**Touchpoint:** Plataforma Web → Busca de IOC.
 
-**3. Acessar área de publicação como usuário verificado**
-Descrição: Entrar na plataforma, acessar a área de publicação e iniciar novo post de contexto de ataque.
-Sentimento do usuário: Interface simples, quero terminar em 10 minutos.
-Touchpoint: Tela: Nova Publicação (Verificado).
+---
 
-**4. Preencher contexto sem expor a empresa**
-Descrição: Descrever setor-alvo (sem nomear a empresa), TTPs observados (mapeadas no MITRE ATT&CK), timeline aproximada e IOCs de infra do atacante. Escolher classificação TLP (ex.: TLP:AMBER — visível apenas a verificados do mesmo setor).
-Sentimento do usuário: Se o TLP funciona como promete, ficaria confortável em publicar.
-Touchpoint: Tela: Formulário Guiado de Publicação (com campo TLP).
+**4. Consultar contexto setorial e informações relacionadas**
 
-**5. Rodar validação automática dos IOCs antes de publicar**
-Descrição: A plataforma valida cada IOC contra os feeds reputacionais e aponta duplicidades, sinais de falso positivo e correspondência com campanhas conhecidas. Revisar e ajustar.
-Sentimento do usuário: Bom saber que não vou publicar lixo por engano.
-Touchpoint: Componente: Pré-validação de IOCs (antes do publish).
+**Descrição:** Na página de resultados, Enzo verifica se o IOC apareceu recentemente em ataques direcionados à sua indústria. Ele pode acessar informações relacionadas ao ataque, ao ofensor e às TTPs registradas.
 
-**6. Publicar com TLP definido e monitorar interações**
-Descrição: Confirmar publicação com TLP:AMBER para o setor. Acompanhar quantos verificados visualizaram e reações/confirmações ("também vimos isso") de pares.
-Sentimento do usuário: Tranquilidade — contribuí, tenho respaldo e vejo retorno da comunidade.
-Touchpoint: Tela: Meus Posts (métricas por publicação).
+Os filtros da plataforma permitem restringir os resultados por indústria, tipo de IOC ou período.
+
+**Sentimento do usuário:** "Se esse indicador apareceu recentemente no meu setor, o alerta ganha muito mais importância."
+
+**Touchpoint:** Plataforma Web → Resultados da Busca → Filtros → Página de Detalhes do IOC/Ataque.
+
+---
+
+**5. Verificar a reputação do IOC**
+
+**Descrição:** Dentro da página do indicador, Enzo consulta as informações obtidas por meio das integrações com feeds reputacionais utilizadas pelo CTHFeedTactics. Isso fornece uma camada adicional de contexto antes de sua decisão.
+
+**Sentimento do usuário:** "Agora tenho uma segunda fonte para confirmar se esse indicador é realmente suspeito."
+
+**Touchpoint:** Plataforma Web → Página do IOC → Informações de Reputação.
+
+---
+
+**6. Tomar a decisão de triagem**
+
+**Descrição:** Com o contexto obtido no CTHFeedTactics, Enzo retorna ao SIEM e decide se deve escalar o alerta para um analista mais experiente ou encerrar a ocorrência conforme os procedimentos internos da organização.
+
+Quando necessário, utiliza as informações encontradas na plataforma como referência para justificar sua decisão.
+
+**Sentimento do usuário:** "Tenho contexto suficiente para tomar uma decisão e seguir para o próximo alerta."
+
+**Touchpoint:** CTHFeedTactics → SIEM / sistema interno de tickets.
+
+---
+
+### Jornada 2 — Paulo (CSIRT / Threat Intelligence Engineer): acompanhamento e integração da inteligência setorial
+
+**Persona:** Paulo, o engenheiro CSIRT que quer dado integrável  
+**Objetivo:** Utilizar inicialmente a plataforma web para avaliar a qualidade e relevância da inteligência disponibilizada pelo CTHFeedTactics e, posteriormente, integrar os IOCs relevantes ao pipeline interno da organização.
+
+**1. Acessar o site e visualizar o feed da indústria**
+
+**Descrição:** Paulo acessa a plataforma web e realiza login. Na página inicial, encontra o feed de ameaças organizado de acordo com a indústria de sua organização.
+
+Ele utiliza o feed para verificar rapidamente ataques recentes, ofensores observados, IOCs e TTPs relacionados ao seu setor.
+
+**Sentimento do usuário:** "Antes de integrar qualquer fonte, quero saber se os dados realmente são relevantes para o meu ambiente."
+
+**Touchpoint:** Plataforma Web → Página Inicial / Feed Setorial.
+
+---
+
+**2. Explorar ameaças e indicadores disponíveis**
+
+**Descrição:** Paulo navega pelas publicações e utiliza filtros para visualizar ameaças por indústria, período, tipo de indicador e outros critérios disponíveis.
+
+Ao abrir uma publicação, consulta os IOCs associados, TTPs, contexto do ataque, informações do ofensor e dados reputacionais disponíveis.
+
+**Sentimento do usuário:** "Se o conteúdo tiver pouco ruído e bom contexto, pode valer a pena incorporar essa fonte ao nosso processo."
+
+**Touchpoint:** Plataforma Web → Feed → Filtros → Página de Detalhes do Ataque/IOC.
+
+---
+
+**3. Pesquisar indicadores específicos**
+
+**Descrição:** Para avaliar a cobertura da plataforma, Paulo pesquisa IOCs que sua equipe já conhece e compara as informações disponíveis no CTHFeedTactics com as fontes atualmente utilizadas pela organização.
+
+Isso permite avaliar a qualidade, atualidade e relevância setorial dos dados antes de realizar qualquer integração automática.
+
+**Sentimento do usuário:** "Quero saber se essa plataforma acrescenta alguma coisa ao que já consumimos."
+
+**Touchpoint:** Plataforma Web → Busca Global → Página do IOC.
+
+---
+
+**4. Acessar os recursos de integração**
+
+**Descrição:** Após considerar o conteúdo útil, Paulo acessa pelo próprio site a área destinada às integrações da conta verificada. Nessa seção, consulta a documentação disponível e gera as credenciais necessárias para utilizar os recursos de API ou exportação disponibilizados pela plataforma.
+
+**Sentimento do usuário:** "A interface web precisa tornar a configuração simples, mesmo que depois o consumo seja automatizado."
+
+**Touchpoint:** Plataforma Web → Perfil/Configurações → Integrações / API.
+
+---
+
+**5. Configurar a integração com o ambiente interno**
+
+**Descrição:** Paulo utiliza as informações e credenciais obtidas no site para configurar a ingestão dos IOCs relevantes no ambiente interno da organização.
+
+Quando os recursos estiverem disponíveis na evolução da plataforma, essa integração poderá utilizar API e formatos estruturados como STIX/TAXII para alimentar ferramentas como MISP, OpenCTI, SIEM ou SOAR.
+
+**Sentimento do usuário:** "Quero que a inteligência chegue ao pipeline sem depender de pesquisa manual todos os dias."
+
+**Touchpoint:** CTHFeedTactics Web → API/Integração → TIP, SIEM ou SOAR da organização.
+
+---
+
+**6. Retornar ao site para acompanhar contexto e ajustar o consumo**
+
+**Descrição:** Mesmo após automatizar parte do consumo, Paulo continua utilizando o site para consultar publicações completas, investigar ataques específicos, verificar contexto que não aparece diretamente no IOC e ajustar os filtros ou configurações utilizadas pela integração.
+
+**Sentimento do usuário:** "A automação traz os indicadores, mas o site continua sendo onde encontro o contexto."
+
+**Touchpoint:** Plataforma Web → Feed Setorial → Busca → Configurações de Integração.
+
+---
+
+### Jornada 3 — Edgar (Gestor de SOC): acompanhamento setorial e compartilhamento controlado de inteligência
+
+**Persona:** Edgar, o gestor de SOC responsável pelo risco  
+**Objetivo:** Utilizar a plataforma web para acompanhar o cenário de ameaças da indústria e, após um incidente, compartilhar IOCs relevantes com outros profissionais por meio de uma publicação realizada como usuário verificado.
+
+**1. Acessar a plataforma para acompanhar ameaças do setor**
+
+**Descrição:** Edgar acessa periodicamente o site do CTHFeedTactics para visualizar o feed relacionado à indústria de sua organização.
+
+Ele observa ataques recentes, ofensores recorrentes, indicadores publicados e tendências que possam ser relevantes para as prioridades de segurança da equipe.
+
+**Sentimento do usuário:** "Preciso entender o que está acontecendo no nosso setor sem analisar dezenas de fontes diferentes."
+
+**Touchpoint:** Plataforma Web → Página Inicial / Feed Setorial.
+
+---
+
+**2. Consultar detalhes de uma ameaça relevante**
+
+**Descrição:** Ao identificar uma publicação importante, Edgar acessa sua página de detalhes para verificar o contexto do ataque, os IOCs associados, as TTPs registradas e outras informações disponibilizadas.
+
+Esses dados podem posteriormente servir de apoio para discussões internas sobre prioridades de defesa e riscos.
+
+**Sentimento do usuário:** "Preciso transformar essas informações em algo que faça sentido para minha equipe e para a gestão."
+
+**Touchpoint:** Plataforma Web → Feed → Página de Detalhes do Ataque.
+
+---
+
+**3. Identificar informações que podem contribuir para a comunidade**
+
+**Descrição:** Após a organização concluir a resposta a um incidente, Edgar e sua equipe identificam IOCs e informações técnicas que poderiam ser úteis para outras empresas do mesmo setor.
+
+Antes da publicação, avaliam internamente quais dados podem ser compartilhados sem expor informações sensíveis da organização.
+
+**Sentimento do usuário:** "Podemos ajudar outras empresas, mas precisamos controlar exatamente o que será divulgado."
+
+**Touchpoint:** Processo interno da organização + consulta às regras e políticas disponíveis no CTHFeedTactics.
+
+---
+
+**4. Acessar a área de publicação do site**
+
+**Descrição:** Como usuário verificado, Edgar entra no CTHFeedTactics e acessa a área destinada à criação de uma nova publicação.
+
+A interface web apresenta um formulário estruturado para inserir informações relacionadas ao ataque, incluindo setor afetado, IOCs e metodologias ou TTPs identificadas.
+
+**Sentimento do usuário:** "Quero publicar somente o necessário, de maneira organizada e rápida."
+
+**Touchpoint:** Plataforma Web → Área do Usuário Verificado → Nova Publicação.
+
+---
+
+**5. Inserir os IOCs e revisar as informações**
+
+**Descrição:** Edgar adiciona os indicadores que podem ser compartilhados e descreve o contexto necessário para que outros profissionais compreendam sua relevância.
+
+Antes da publicação, os IOCs podem ser consultados nos feeds reputacionais integrados à plataforma, permitindo identificar possíveis inconsistências ou informações já existentes.
+
+**Sentimento do usuário:** "Quero ter certeza de que as informações estão corretas antes de disponibilizá-las para outros profissionais."
+
+**Touchpoint:** Plataforma Web → Formulário de Publicação → Validação de IOCs.
+
+---
+
+**6. Publicar e acompanhar a informação no feed**
+
+**Descrição:** Após revisar os dados, Edgar confirma a publicação. O conteúdo passa a integrar a base de inteligência da plataforma e pode ser apresentado aos usuários de acordo com seu contexto setorial e as regras de acesso aplicáveis.
+
+Posteriormente, Edgar pode retornar ao site para visualizar a publicação e acompanhar as informações disponíveis na plataforma.
+
+**Sentimento do usuário:** "Nossa experiência agora pode ajudar outras organizações do setor a identificar a mesma ameaça mais cedo."
+
+**Touchpoint:** Plataforma Web → Publicação → Feed Setorial.
