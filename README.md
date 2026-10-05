@@ -447,21 +447,21 @@ Embora existam ferramentas e bases de dados consolidadas no ecossistema de segur
 
 **VirusTotal**
 
-O que é: Plataforma global de análise de arquivos, domínios, IPs e URLs suspeitos utilizando múltiplos motores antivírus e scanners de segurança.
+* O que é: Plataforma global de análise de arquivos, domínios, IPs e URLs suspeitos utilizando múltiplos motores antivírus e scanners de segurança.
 
-Onde difere da nossa solução: O VirusTotal é altamente focado na análise técnica pontual de artefatos (análise de arquivos e URLs) e na verificação automatizada por motores. O CTHFeedTatics não faz análise detalhada de ataques e foca na contextualização setorial (quais ofensores atacam determinada indústria) e no networking entre profissionais de um mesmo nicho, indo muito além de uma caixa de pesquisa de hashes.
+* Onde difere da nossa solução: O VirusTotal é altamente focado na análise técnica pontual de artefatos (análise de arquivos e URLs) e na verificação automatizada por motores. O CTHFeedTatics não faz análise detalhada de ataques e foca na contextualização setorial (quais ofensores atacam determinada indústria) e no networking entre profissionais de um mesmo nicho, indo muito além de uma caixa de pesquisa de hashes.
 
 **ThreatFox (por abuse.ch)**
 
-O que é: Plataforma comunitária gratuita voltada especificamente para o compartilhamento e descoberta de IOCs de malware (como endereços IP de C2 e payloads).
+* O que é: Plataforma comunitária gratuita voltada especificamente para o compartilhamento e descoberta de IOCs de malware (como endereços IP de C2 e payloads).
 
-Onde difere da nossa solução: O ThreatFox opera como um feed técnico e massivo de indicadores de malware com forte apelo open-source e voltado para analistas técnicos. O CTHFeedTatics introduz a camada de segmentação por indústria e verificação de identidade profissional, permitindo que analistas de um mesmo setor entendam o impacto da ameaça no seu nicho de negócio, além de viabilizar a conexão profissional direta com pares da mesma área.
+* Onde difere da nossa solução: O ThreatFox opera como um feed técnico e massivo de indicadores de malware com forte apelo open-source e voltado para analistas técnicos. O CTHFeedTatics introduz a camada de segmentação por indústria e verificação de identidade profissional, permitindo que analistas de um mesmo setor entendam o impacto da ameaça no seu nicho de negócio, além de viabilizar a conexão profissional direta com pares da mesma área.
 
 **AlienVault OTX (Open Threat Exchange - AT&T Cybersecurity)**
 
-O que é: Uma das maiores redes abertas de inteligência de ameaças baseada em colaboração, onde usuários criam "Pulses" (agrupamentos de IOCs e descrições de campanhas).
+* O que é: Uma das maiores redes abertas de inteligência de ameaças baseada em colaboração, onde usuários criam "Pulses" (agrupamentos de IOCs e descrições de campanhas).
 
-Onde difere da nossa solução: O OTX é uma excelente ferramenta aberta, mas frequentemente sofre com o excesso de ruído e alertas genéricos, exigindo esforço manual intenso de filtragem. Além disso, o OTX possui um ecossistema mais generalista. O CTHFeedTatics resolve esse problema ao propor uma curadoria focada rigidamente na realidade setorial do cliente e em barreiras de verificação que elevam a qualidade e a confiabilidade das interações e publicações corporativas.
+* Onde difere da nossa solução: O OTX é uma excelente ferramenta aberta, mas frequentemente sofre com o excesso de ruído e alertas genéricos, exigindo esforço manual intenso de filtragem. Além disso, o OTX possui um ecossistema mais generalista. O CTHFeedTatics resolve esse problema ao propor uma curadoria focada rigidamente na realidade setorial do cliente e em barreiras de verificação que elevam a qualidade e a confiabilidade das interações e publicações corporativas.
 
 ## Síntese do Posicionamento:
 
