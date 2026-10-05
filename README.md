@@ -1594,3 +1594,856 @@ Quando adequado, ela também pode voltar ao CTHFeedTactics para consultar ou con
 **Sentimento do usuário:** "A informação da comunidade ajudou a transformar um indicador isolado em contexto útil."
 
 **Touchpoint:** Comunicação externa → CTHFeedTactics → Ferramentas internas de investigação.
+
+---
+
+### Jornada 6 — Rafael: configurar o perfil e personalizar o feed por indústria
+
+**Persona:** Rafael, o profissional de TI generalista  
+**Objetivo:** Configurar seu perfil no primeiro acesso para que o CTHFeedTactics priorize automaticamente informações relacionadas à indústria de sua organização.
+
+**1. Criar uma conta na plataforma**
+
+**Descrição:** Rafael acessa o CTHFeedTactics pela primeira vez e realiza seu cadastro utilizando as informações necessárias para criar uma conta.
+
+Após concluir o cadastro, ele realiza login e é direcionado para a configuração inicial do perfil.
+
+**Sentimento do usuário:** "Quero começar a usar a plataforma sem precisar configurar dezenas de coisas."
+
+**Touchpoint:** Plataforma Web → Cadastro → Login.
+
+---
+
+**2. Informar sua área profissional**
+
+**Descrição:** Rafael informa sua função ou área de atuação para contextualizar seu perfil profissional dentro da plataforma.
+
+Essa informação também poderá ser utilizada posteriormente caso ele solicite verificação da conta.
+
+**Sentimento do usuário:** "Isso ajuda a plataforma a entender o tipo de informação que pode ser útil para mim."
+
+**Touchpoint:** Plataforma Web → Configuração de Perfil → Informações Profissionais.
+
+---
+
+**3. Selecionar a indústria da organização**
+
+**Descrição:** Rafael seleciona o setor econômico no qual sua empresa atua.
+
+A indústria escolhida passa a ser utilizada como principal referência para organização e priorização do conteúdo apresentado.
+
+**Sentimento do usuário:** "O que realmente importa para mim são ameaças contra empresas parecidas com a nossa."
+
+**Touchpoint:** Plataforma Web → Perfil → Seleção de Indústria.
+
+---
+
+**4. Visualizar o feed personalizado**
+
+**Descrição:** Após salvar as informações, Rafael retorna à página inicial e percebe que o feed passa a priorizar ataques, IOCs, TTPs e ofensores relacionados à indústria selecionada.
+
+**Sentimento do usuário:** "Agora faz sentido. Não estou vendo apenas um monte de notícias de segurança."
+
+**Touchpoint:** Plataforma Web → Página Inicial → Feed Setorial.
+
+---
+
+**5. Alterar a configuração quando necessário**
+
+**Descrição:** Caso mude de empresa ou passe a trabalhar com outro setor, Rafael pode retornar às configurações do perfil e atualizar sua indústria.
+
+**Sentimento do usuário:** "Posso ajustar o perfil se meu contexto profissional mudar."
+
+**Touchpoint:** Plataforma Web → Perfil → Configurações de Indústria.
+
+---
+
+### Jornada 7 — Marina: pesquisar e correlacionar um IOC durante uma investigação
+
+**Persona:** Marina, analista N2 de investigação  
+**Objetivo:** Pesquisar um indicador identificado durante uma investigação e descobrir se ele está relacionado a outras ameaças ou ataques registrados na plataforma.
+
+**1. Identificar um IOC suspeito**
+
+**Descrição:** Durante uma investigação interna, Marina identifica um endereço IP, domínio, hash ou URL que ainda não possui contexto suficiente para determinar sua relevância.
+
+**Sentimento do usuário:** "Tenho o indicador, mas ainda não sei o que ele significa."
+
+**Touchpoint:** SIEM / EDR / Ferramentas internas de investigação.
+
+---
+
+**2. Pesquisar o IOC no CTHFeedTactics**
+
+**Descrição:** Marina acessa a barra de busca da plataforma e insere o indicador encontrado.
+
+O sistema retorna as informações relacionadas ao IOC disponíveis na base.
+
+**Sentimento do usuário:** "Quero saber se alguém já viu isso antes."
+
+**Touchpoint:** Plataforma Web → Busca Global → Pesquisa de IOC.
+
+---
+
+**3. Consultar ocorrências relacionadas**
+
+**Descrição:** Marina verifica se o indicador aparece associado a ataques, campanhas, ofensores ou publicações anteriores.
+
+Ela observa especialmente ocorrências registradas contra organizações da mesma indústria.
+
+**Sentimento do usuário:** "Se esse indicador já apareceu em ataques semelhantes, ele se torna muito mais importante."
+
+**Touchpoint:** Plataforma Web → Página do IOC → Conteúdo Relacionado.
+
+---
+
+**4. Consultar informações reputacionais**
+
+**Descrição:** Marina verifica os dados fornecidos pelas integrações com feeds reputacionais disponíveis na página do IOC.
+
+Essas informações complementam o contexto apresentado pela comunidade.
+
+**Sentimento do usuário:** "Agora tenho mais de uma fonte apoiando minha análise."
+
+**Touchpoint:** Plataforma Web → Página do IOC → Reputação.
+
+---
+
+**5. Retornar à investigação**
+
+**Descrição:** Com o novo contexto, Marina retorna às ferramentas internas e compara as informações encontradas com os eventos registrados no ambiente da organização.
+
+**Sentimento do usuário:** "Agora consigo decidir se esse indicador realmente merece aprofundamento."
+
+**Touchpoint:** CTHFeedTactics → Ferramentas internas de investigação.
+
+---
+
+### Jornada 8 — Enzo: entender uma TTP observada em um alerta
+
+**Persona:** Enzo, o analista N1 apagando incêndio  
+**Objetivo:** Consultar informações sobre uma técnica ou comportamento identificado durante a triagem de um alerta para entender se ele está associado a ameaças relevantes ao setor.
+
+**1. Receber um alerta com comportamento suspeito**
+
+**Descrição:** Durante a triagem, Enzo encontra um alerta associado a uma técnica ou comportamento que não reconhece completamente.
+
+**Sentimento do usuário:** "Eu sei que isso pode ser suspeito, mas preciso de contexto rapidamente."
+
+**Touchpoint:** SIEM → Alerta de Segurança.
+
+---
+
+**2. Pesquisar a técnica na plataforma**
+
+**Descrição:** Enzo acessa o CTHFeedTactics e pesquisa pela técnica ou TTP relacionada ao comportamento observado.
+
+**Sentimento do usuário:** "Quero saber onde isso já apareceu."
+
+**Touchpoint:** Plataforma Web → Busca → TTP.
+
+---
+
+**3. Consultar ameaças associadas**
+
+**Descrição:** A plataforma apresenta ataques, ofensores e publicações relacionadas à técnica pesquisada.
+
+Enzo verifica se existem ocorrências recentes contra organizações da mesma indústria.
+
+**Sentimento do usuário:** "Se isso estiver sendo usado contra empresas do meu setor, o alerta muda de prioridade."
+
+**Touchpoint:** Plataforma Web → Página da TTP → Ameaças Relacionadas.
+
+---
+
+**4. Consultar os IOCs vinculados**
+
+**Descrição:** Enzo verifica se as publicações relacionadas possuem IOCs que possam ser comparados com o alerta recebido.
+
+**Sentimento do usuário:** "Talvez exista algum indicador que confirme o que estou vendo."
+
+**Touchpoint:** Plataforma Web → TTP → Publicações → IOCs.
+
+---
+
+**5. Decidir sobre o escalonamento**
+
+**Descrição:** Com o contexto adicional, Enzo retorna ao processo de triagem e decide se o alerta deve ser escalado para investigação mais aprofundada.
+
+**Sentimento do usuário:** "Agora tenho uma justificativa melhor para escalar ou encerrar."
+
+**Touchpoint:** CTHFeedTactics → SIEM / Sistema de Tickets.
+
+---
+
+### Jornada 9 — Paulo: analisar um ofensor ativo contra sua indústria
+
+**Persona:** Paulo, o engenheiro CSIRT que quer dado integrável  
+**Objetivo:** Investigar um grupo ou ofensor mencionado em uma ameaça para compreender sua atividade recente contra organizações do mesmo setor.
+
+**1. Identificar um ofensor relevante**
+
+**Descrição:** Paulo encontra no feed uma publicação relacionada a um grupo ou agente de ameaça que recentemente atacou uma organização de sua indústria.
+
+**Sentimento do usuário:** "Quero saber se isso é um caso isolado ou parte de uma campanha maior."
+
+**Touchpoint:** Plataforma Web → Feed Setorial → Publicação.
+
+---
+
+**2. Acessar a página do ofensor**
+
+**Descrição:** Paulo seleciona o nome do ofensor e acessa uma página que reúne as informações relacionadas disponíveis na plataforma.
+
+**Sentimento do usuário:** "Quero reunir o histórico antes de começar a procurar em fontes separadas."
+
+**Touchpoint:** Plataforma Web → Página do Ofensor.
+
+---
+
+**3. Consultar ataques associados**
+
+**Descrição:** Paulo analisa as publicações e ataques relacionados ao ofensor, observando principalmente datas, setores afetados e contexto disponível.
+
+**Sentimento do usuário:** "Preciso entender o padrão de atuação desse grupo."
+
+**Touchpoint:** Plataforma Web → Ofensor → Ataques Relacionados.
+
+---
+
+**4. Examinar IOCs e TTPs utilizados**
+
+**Descrição:** Paulo consulta os indicadores e metodologias associados às atividades registradas.
+
+**Sentimento do usuário:** "Essas informações podem ser comparadas diretamente com o nosso ambiente."
+
+**Touchpoint:** Plataforma Web → Ofensor → IOCs / TTPs.
+
+---
+
+**5. Utilizar as informações internamente**
+
+**Descrição:** Paulo utiliza o contexto obtido como referência para revisar investigações, cobertura de detecção ou outras atividades internas da organização.
+
+**Sentimento do usuário:** "Agora tenho uma visão mais clara do que procurar."
+
+**Touchpoint:** CTHFeedTactics → Ferramentas internas de Threat Intelligence / CSIRT.
+
+---
+
+### Jornada 10 — Rafael: receber um alerta sobre uma nova ameaça setorial
+
+**Persona:** Rafael, o profissional de TI generalista  
+**Objetivo:** Ser informado quando uma ameaça relevante à indústria de sua organização for disponibilizada na plataforma.
+
+**1. Configurar o recebimento de alertas**
+
+**Descrição:** Rafael acessa suas preferências e habilita notificações relacionadas à indústria cadastrada em seu perfil.
+
+**Sentimento do usuário:** "Não quero precisar abrir a plataforma o tempo todo para descobrir se aconteceu alguma coisa."
+
+**Touchpoint:** Plataforma Web → Perfil → Preferências de Notificação.
+
+---
+
+**2. Receber uma notificação**
+
+**Descrição:** Quando uma nova ameaça relevante é registrada, Rafael recebe uma notificação pelos canais disponibilizados pela plataforma, como e-mail.
+
+**Sentimento do usuário:** "Isso parece relevante para nossa empresa."
+
+**Touchpoint:** CTHFeedTactics → E-mail / Notificação.
+
+---
+
+**3. Acessar a publicação**
+
+**Descrição:** Rafael utiliza o link recebido para abrir diretamente a publicação relacionada à ameaça.
+
+**Sentimento do usuário:** "Quero entender rapidamente o que aconteceu."
+
+**Touchpoint:** E-mail → Plataforma Web → Publicação.
+
+---
+
+**4. Consultar os indicadores disponíveis**
+
+**Descrição:** Rafael verifica os IOCs, TTPs e informações de contexto associadas à ameaça.
+
+**Sentimento do usuário:** "Agora sei exatamente o que preciso verificar no nosso ambiente."
+
+**Touchpoint:** Plataforma Web → Publicação → IOCs / TTPs.
+
+---
+
+**5. Compartilhar internamente quando necessário**
+
+**Descrição:** Caso considere a ameaça relevante, Rafael encaminha a informação para os responsáveis internos pela segurança.
+
+**Sentimento do usuário:** "É melhor a equipe saber disso antes que apareça alguma coisa."
+
+**Touchpoint:** CTHFeedTactics → Comunicação interna da organização.
+
+---
+
+### Jornada 11 — Marina: salvar ameaças para uma investigação posterior
+
+**Persona:** Marina, analista N2 de investigação  
+**Objetivo:** Salvar publicações relevantes encontradas durante uma investigação para consultá-las posteriormente sem precisar repetir a pesquisa.
+
+**1. Encontrar uma publicação relevante**
+
+**Descrição:** Durante uma pesquisa, Marina encontra uma ameaça que possui informações potencialmente relacionadas ao caso que está investigando.
+
+**Sentimento do usuário:** "Isso pode ser útil depois, mas ainda preciso verificar outras coisas."
+
+**Touchpoint:** Plataforma Web → Busca → Publicação.
+
+---
+
+**2. Salvar a publicação**
+
+**Descrição:** Marina utiliza a opção de salvar a publicação em sua conta.
+
+**Sentimento do usuário:** "Assim não preciso tentar encontrar isso novamente."
+
+**Touchpoint:** Plataforma Web → Publicação → Salvar.
+
+---
+
+**3. Continuar a investigação**
+
+**Descrição:** Marina continua pesquisando outros IOCs, TTPs e ofensores sem perder a referência encontrada anteriormente.
+
+**Sentimento do usuário:** "Posso continuar explorando sem abrir vinte abas."
+
+**Touchpoint:** Plataforma Web → Busca / Feed.
+
+---
+
+**4. Acessar os itens salvos**
+
+**Descrição:** Posteriormente, Marina abre a área de conteúdos salvos e encontra a publicação armazenada.
+
+**Sentimento do usuário:** "Aqui está exatamente o que eu precisava recuperar."
+
+**Touchpoint:** Plataforma Web → Perfil → Itens Salvos.
+
+---
+
+**5. Utilizar a referência na investigação**
+
+**Descrição:** Marina compara as informações da publicação com os dados coletados durante sua investigação.
+
+**Sentimento do usuário:** "Agora consigo juntar as diferentes partes da investigação."
+
+**Touchpoint:** CTHFeedTactics → Ferramentas internas de investigação.
+
+---
+
+### Jornada 12 — Edgar: solicitar a verificação de sua conta
+
+**Persona:** Edgar, o gestor de SOC responsável pelo risco  
+**Objetivo:** Solicitar a verificação de sua conta para obter acesso às funcionalidades reservadas aos profissionais verificados.
+
+**1. Utilizar a plataforma como usuário comum**
+
+**Descrição:** Edgar começa utilizando o CTHFeedTactics para consultar ameaças e inteligência relacionada à sua indústria.
+
+Ele percebe que determinadas funcionalidades de contribuição e networking exigem uma conta verificada.
+
+**Sentimento do usuário:** "Se queremos contribuir com informações, precisamos validar nossa identidade profissional."
+
+**Touchpoint:** Plataforma Web → Perfil / Recursos para Verificados.
+
+---
+
+**2. Iniciar a solicitação de verificação**
+
+**Descrição:** Edgar acessa sua conta e seleciona a opção de solicitar verificação.
+
+**Sentimento do usuário:** "Quero entender exatamente o que a plataforma precisa para verificar meu perfil."
+
+**Touchpoint:** Plataforma Web → Perfil → Solicitar Verificação.
+
+---
+
+**3. Fornecer as informações necessárias**
+
+**Descrição:** Edgar envia as informações profissionais solicitadas pelo processo de verificação, seguindo os critérios definidos pela plataforma.
+
+**Sentimento do usuário:** "São informações profissionais, então quero saber como elas serão utilizadas."
+
+**Touchpoint:** Plataforma Web → Formulário de Verificação.
+
+---
+
+**4. Acompanhar a solicitação**
+
+**Descrição:** Após enviar os dados, Edgar pode visualizar o status do processo enquanto aguarda a análise.
+
+**Sentimento do usuário:** "Pelo menos sei que a solicitação está sendo analisada."
+
+**Touchpoint:** Plataforma Web → Perfil → Status da Verificação.
+
+---
+
+**5. Obter a conta verificada**
+
+**Descrição:** Quando a solicitação é aprovada, a conta passa a apresentar o status de usuário verificado e libera as funcionalidades correspondentes.
+
+**Sentimento do usuário:** "Agora podemos participar de forma mais ativa da comunidade."
+
+**Touchpoint:** Plataforma Web → Perfil Verificado.
+
+---
+
+### Jornada 13 — Marina: controlar a privacidade de suas informações profissionais
+
+**Persona:** Marina, analista N2 de investigação  
+**Objetivo:** Definir quais informações de contato outros usuários verificados poderão visualizar em seu perfil.
+
+**1. Acessar as configurações de privacidade**
+
+**Descrição:** Após obter a verificação da conta, Marina acessa as configurações relacionadas às informações profissionais disponíveis em seu perfil.
+
+**Sentimento do usuário:** "Quero participar da comunidade sem expor mais informações do que o necessário."
+
+**Touchpoint:** Plataforma Web → Perfil → Privacidade.
+
+---
+
+**2. Revisar as informações disponíveis**
+
+**Descrição:** Marina verifica quais dados profissionais podem ser apresentados a outros usuários verificados.
+
+**Sentimento do usuário:** "Preciso saber exatamente o que outras pessoas conseguem visualizar."
+
+**Touchpoint:** Plataforma Web → Privacidade → Informações de Contato.
+
+---
+
+**3. Escolher quais dados compartilhar**
+
+**Descrição:** Marina seleciona quais formas de contato deseja disponibilizar aos demais profissionais verificados.
+
+**Sentimento do usuário:** "Quero ser encontrada, mas ainda manter controle sobre meus dados."
+
+**Touchpoint:** Plataforma Web → Configurações de Privacidade.
+
+---
+
+**4. Salvar as preferências**
+
+**Descrição:** A plataforma registra as configurações escolhidas e passa a aplicá-las ao perfil da usuária.
+
+**Sentimento do usuário:** "Agora sei que somente as informações que autorizei estarão disponíveis."
+
+**Touchpoint:** Plataforma Web → Perfil → Salvar Configurações.
+
+---
+
+**5. Alterar as preferências futuramente**
+
+**Descrição:** Marina pode retornar às configurações sempre que quiser modificar ou remover uma informação de contato.
+
+**Sentimento do usuário:** "Posso mudar de ideia sem perder o controle do perfil."
+
+**Touchpoint:** Plataforma Web → Perfil → Privacidade.
+
+---
+
+### Jornada 14 — Edgar: publicar inteligência com classificação de compartilhamento
+
+**Persona:** Edgar, o gestor de SOC responsável pelo risco  
+**Objetivo:** Publicar informações sobre uma ameaça identificada pela organização indicando claramente as condições de compartilhamento do conteúdo.
+
+**1. Identificar informações compartilháveis**
+
+**Descrição:** Após um incidente, Edgar e sua equipe separam IOCs e informações técnicas que podem ser compartilhados sem expor dados sensíveis da organização.
+
+**Sentimento do usuário:** "Precisamos contribuir, mas sem divulgar informações que deveriam permanecer internas."
+
+**Touchpoint:** Processo interno da organização.
+
+---
+
+**2. Criar uma nova publicação**
+
+**Descrição:** Como usuário verificado, Edgar acessa a área de publicação e começa a registrar as informações disponíveis.
+
+**Sentimento do usuário:** "Quero que o conteúdo seja útil para outras organizações."
+
+**Touchpoint:** Plataforma Web → Nova Publicação.
+
+---
+
+**3. Adicionar contexto, IOCs e TTPs**
+
+**Descrição:** Edgar informa os indicadores, metodologias observadas e o contexto necessário para compreender a ameaça.
+
+**Sentimento do usuário:** "Um IOC sozinho não explica praticamente nada."
+
+**Touchpoint:** Plataforma Web → Formulário de Publicação.
+
+---
+
+**4. Definir as condições de compartilhamento**
+
+**Descrição:** Antes de concluir a publicação, Edgar seleciona a classificação de compartilhamento aplicável às informações disponibilizadas.
+
+**Sentimento do usuário:** "As pessoas precisam saber claramente até onde essa informação pode circular."
+
+**Touchpoint:** Plataforma Web → Nova Publicação → Classificação de Compartilhamento.
+
+---
+
+**5. Revisar e publicar**
+
+**Descrição:** Edgar revisa o conteúdo e confirma a publicação após verificar se não existem informações que deveriam permanecer restritas.
+
+**Sentimento do usuário:** "Agora posso compartilhar com mais confiança."
+
+**Touchpoint:** Plataforma Web → Revisão → Publicar.
+
+---
+
+### Jornada 15 — Paulo: exportar inteligência para utilização em ferramentas externas
+
+**Persona:** Paulo, o engenheiro CSIRT que quer dado integrável  
+**Objetivo:** Exportar informações estruturadas da plataforma para utilizá-las em ferramentas de Threat Intelligence da organização.
+
+**1. Encontrar um conjunto relevante de indicadores**
+
+**Descrição:** Paulo utiliza filtros e buscas para localizar IOCs relacionados à indústria e às ameaças que sua equipe acompanha.
+
+**Sentimento do usuário:** "Esses indicadores são relevantes, mas não quero copiá-los um por um."
+
+**Touchpoint:** Plataforma Web → Feed / Busca → Filtros.
+
+---
+
+**2. Selecionar os dados necessários**
+
+**Descrição:** Paulo identifica quais informações deseja utilizar em suas ferramentas internas.
+
+**Sentimento do usuário:** "Quero levar apenas o que realmente interessa ao nosso ambiente."
+
+**Touchpoint:** Plataforma Web → Resultados → Seleção de Dados.
+
+---
+
+**3. Escolher um formato de exportação**
+
+**Descrição:** Quando disponível, Paulo escolhe um formato estruturado suportado pela plataforma, como STIX.
+
+**Sentimento do usuário:** "Se os dados já vêm estruturados, economizo bastante trabalho manual."
+
+**Touchpoint:** Plataforma Web → Exportar → Formato Estruturado.
+
+---
+
+**4. Importar os dados na ferramenta interna**
+
+**Descrição:** Paulo utiliza o arquivo ou conjunto de dados exportado para alimentar uma ferramenta de Threat Intelligence utilizada pela organização.
+
+**Sentimento do usuário:** "Agora essa inteligência pode entrar no nosso fluxo normal de trabalho."
+
+**Touchpoint:** CTHFeedTactics → TIP / MISP / OpenCTI.
+
+---
+
+**5. Consultar o contexto no site quando necessário**
+
+**Descrição:** Caso precise de informações adicionais, Paulo retorna à publicação original no CTHFeedTactics para consultar contexto que não esteja presente diretamente no indicador exportado.
+
+**Sentimento do usuário:** "Os dados estruturados ajudam na automação, mas o contexto continua sendo importante."
+
+**Touchpoint:** Ferramenta interna → CTHFeedTactics → Publicação.
+
+---
+
+### Jornada 16 — Enzo: filtrar o feed para encontrar ameaças recentes
+
+**Persona:** Enzo, o analista N1 apagando incêndio  
+**Objetivo:** Utilizar filtros para localizar rapidamente ameaças recentes relacionadas ao contexto de um alerta em análise.
+
+**1. Acessar o feed setorial**
+
+**Descrição:** Durante a triagem de um alerta, Enzo abre o CTHFeedTactics para verificar se existe alguma campanha recente relacionada à sua indústria.
+
+**Sentimento do usuário:** "Não tenho tempo para percorrer dezenas de publicações."
+
+**Touchpoint:** Plataforma Web → Feed Setorial.
+
+---
+
+**2. Aplicar filtro por período**
+
+**Descrição:** Enzo limita os resultados às publicações mais recentes para verificar ameaças ativas ou registradas recentemente.
+
+**Sentimento do usuário:** "O que aconteceu nos últimos dias é muito mais relevante para esse alerta."
+
+**Touchpoint:** Plataforma Web → Feed → Filtro por Período.
+
+---
+
+**3. Aplicar filtros adicionais**
+
+**Descrição:** Quando necessário, Enzo combina filtros relacionados à indústria, tipo de IOC ou outros critérios disponíveis.
+
+**Sentimento do usuário:** "Quanto menos ruído eu tiver, mais rápido consigo tomar uma decisão."
+
+**Touchpoint:** Plataforma Web → Feed → Filtros.
+
+---
+
+**4. Abrir uma publicação relevante**
+
+**Descrição:** Entre os resultados reduzidos, Enzo identifica uma ameaça compatível com o comportamento observado no alerta.
+
+**Sentimento do usuário:** "Isso parece muito parecido com o que estou vendo."
+
+**Touchpoint:** Plataforma Web → Resultados Filtrados → Publicação.
+
+---
+
+**5. Utilizar o contexto na triagem**
+
+**Descrição:** Enzo utiliza as informações encontradas para auxiliar sua decisão dentro do processo interno da organização.
+
+**Sentimento do usuário:** "Consegui encontrar a informação sem perder tempo navegando pelo feed inteiro."
+
+**Touchpoint:** CTHFeedTactics → SIEM / Sistema de Tickets.
+
+---
+
+### Jornada 17 — Marina: acompanhar novas informações sobre uma ameaça já investigada
+
+**Persona:** Marina, analista N2 de investigação  
+**Objetivo:** Retornar a uma ameaça pesquisada anteriormente para verificar se novos indicadores ou informações foram adicionados.
+
+**1. Recuperar uma publicação anteriormente consultada**
+
+**Descrição:** Marina acessa uma ameaça que havia sido utilizada em uma investigação anterior.
+
+**Sentimento do usuário:** "Quero saber se apareceu alguma coisa nova desde a última vez."
+
+**Touchpoint:** Plataforma Web → Histórico / Itens Salvos → Publicação.
+
+---
+
+**2. Verificar a atualização das informações**
+
+**Descrição:** Marina observa se novos IOCs, TTPs ou informações de contexto foram adicionados à publicação ou relacionados à ameaça.
+
+**Sentimento do usuário:** "Uma campanha pode mudar rapidamente; os indicadores antigos não contam toda a história."
+
+**Touchpoint:** Plataforma Web → Publicação → Informações Atualizadas.
+
+---
+
+**3. Consultar novas publicações relacionadas**
+
+**Descrição:** Marina verifica outros conteúdos que passaram a ser associados à mesma ameaça ou ofensor.
+
+**Sentimento do usuário:** "Talvez outras organizações tenham identificado novas partes da campanha."
+
+**Touchpoint:** Plataforma Web → Publicação → Conteúdo Relacionado.
+
+---
+
+**4. Comparar com a investigação anterior**
+
+**Descrição:** Marina compara as novas informações com os dados registrados anteriormente por sua equipe.
+
+**Sentimento do usuário:** "Agora consigo verificar se alguma coisa mudou desde nossa última análise."
+
+**Touchpoint:** CTHFeedTactics → Ferramentas internas.
+
+---
+
+**5. Atualizar o contexto interno**
+
+**Descrição:** Quando necessário, Marina registra internamente os novos indicadores ou informações consideradas relevantes.
+
+**Sentimento do usuário:** "Nossa investigação continua atualizada sem precisar começar tudo de novo."
+
+**Touchpoint:** Ferramentas internas de investigação.
+
+---
+
+### Jornada 18 — Edgar: obter uma visão executiva das ameaças do setor
+
+**Persona:** Edgar, o gestor de SOC responsável pelo risco  
+**Objetivo:** Consultar uma visão consolidada das ameaças relacionadas à sua indústria para apoiar discussões de prioridade e risco com a gestão.
+
+**1. Acessar a visão consolidada da indústria**
+
+**Descrição:** Edgar entra na plataforma e acessa uma área que reúne informações agregadas sobre ameaças relacionadas ao seu setor.
+
+**Sentimento do usuário:** "Não preciso de cada IOC individual para conversar com a diretoria."
+
+**Touchpoint:** Plataforma Web → Dashboard Setorial.
+
+---
+
+**2. Consultar ameaças recentes**
+
+**Descrição:** Edgar observa quais ameaças e ofensores aparecem com maior frequência no período selecionado.
+
+**Sentimento do usuário:** "Quero entender quais problemas estão realmente se repetindo no setor."
+
+**Touchpoint:** Plataforma Web → Dashboard → Ameaças Recentes.
+
+---
+
+**3. Analisar tendências**
+
+**Descrição:** Edgar compara informações agregadas para identificar aumento ou redução de determinadas atividades relacionadas à indústria.
+
+**Sentimento do usuário:** "Isso ajuda a distinguir um incidente isolado de uma tendência."
+
+**Touchpoint:** Plataforma Web → Dashboard → Tendências.
+
+---
+
+**4. Acessar detalhes quando necessário**
+
+**Descrição:** Quando uma ameaça chama atenção, Edgar abre as publicações relacionadas para consultar informações técnicas adicionais.
+
+**Sentimento do usuário:** "Se alguém perguntar de onde esse risco está vindo, preciso conseguir aprofundar."
+
+**Touchpoint:** Dashboard → Publicação → Detalhes.
+
+---
+
+**5. Utilizar as informações em discussões internas**
+
+**Descrição:** Edgar utiliza a visão consolidada como apoio para conversas sobre prioridades de segurança e acompanhamento do cenário de ameaças.
+
+**Sentimento do usuário:** "Agora consigo apresentar o cenário de forma mais clara sem transformar a reunião em uma análise técnica de IOC."
+
+**Touchpoint:** CTHFeedTactics → Processo interno de gestão.
+
+---
+
+### Jornada 19 — Paulo: contribuir com novos IOCs para uma publicação existente
+
+**Persona:** Paulo, o engenheiro CSIRT que quer dado integrável  
+**Objetivo:** Adicionar informações complementares sobre uma ameaça que já possui registros na plataforma, evitando criar conteúdo duplicado.
+
+**1. Pesquisar a ameaça**
+
+**Descrição:** Após identificar novos indicadores durante uma investigação, Paulo pesquisa a campanha ou ofensor relacionado no CTHFeedTactics.
+
+**Sentimento do usuário:** "Antes de criar alguma coisa nova, quero saber se isso já está registrado."
+
+**Touchpoint:** Plataforma Web → Busca.
+
+---
+
+**2. Encontrar uma publicação existente**
+
+**Descrição:** Paulo identifica uma publicação que descreve a mesma ameaça observada por sua equipe.
+
+**Sentimento do usuário:** "Isso parece ser exatamente a mesma atividade."
+
+**Touchpoint:** Plataforma Web → Resultados → Publicação.
+
+---
+
+**3. Comparar os indicadores**
+
+**Descrição:** Paulo compara os IOCs já registrados com aqueles encontrados pela organização e percebe que possui informações adicionais.
+
+**Sentimento do usuário:** "Temos indicadores que ainda não aparecem aqui."
+
+**Touchpoint:** Plataforma Web → Publicação → IOCs.
+
+---
+
+**4. Adicionar informações complementares**
+
+**Descrição:** Como usuário verificado, Paulo utiliza o fluxo disponível para contribuir com novos indicadores ou contexto relacionado à ameaça.
+
+**Sentimento do usuário:** "É melhor complementar o que já existe do que fragmentar a mesma campanha em várias publicações."
+
+**Touchpoint:** Plataforma Web → Publicação → Contribuir.
+
+---
+
+**5. Revisar a contribuição**
+
+**Descrição:** Paulo verifica os dados adicionados e confirma que não incluiu informações internas ou sensíveis.
+
+**Sentimento do usuário:** "Quero contribuir sem expor nossa organização."
+
+**Touchpoint:** Plataforma Web → Revisão da Contribuição.
+
+---
+
+**6. Disponibilizar as novas informações**
+
+**Descrição:** Após a conclusão do processo aplicável, os novos dados passam a complementar a inteligência relacionada à ameaça.
+
+**Sentimento do usuário:** "Agora outras equipes conseguem enxergar uma parte maior dessa campanha."
+
+**Touchpoint:** Plataforma Web → Publicação Atualizada.
+
+---
+
+### Jornada 20 — Marina: reportar uma informação incorreta ou suspeita
+
+**Persona:** Marina, analista N2 de investigação  
+**Objetivo:** Sinalizar uma publicação ou indicador potencialmente incorreto para preservar a confiabilidade das informações disponíveis na plataforma.
+
+**1. Encontrar uma inconsistência**
+
+**Descrição:** Durante uma investigação, Marina percebe que determinado IOC ou informação apresentada em uma publicação parece incompatível com outras evidências disponíveis.
+
+**Sentimento do usuário:** "Isso parece errado e alguém pode acabar utilizando essa informação."
+
+**Touchpoint:** Plataforma Web → Publicação / Página do IOC.
+
+---
+
+**2. Revisar o contexto disponível**
+
+**Descrição:** Antes de realizar qualquer ação, Marina verifica a publicação completa e as informações reputacionais disponíveis para confirmar que não interpretou o dado de forma incorreta.
+
+**Sentimento do usuário:** "Quero ter certeza antes de sinalizar alguma coisa."
+
+**Touchpoint:** Plataforma Web → Publicação → IOC → Reputação.
+
+---
+
+**3. Utilizar a opção de reportar**
+
+**Descrição:** Marina seleciona a opção de reportar ou sinalizar o conteúdo e informa brevemente o motivo pelo qual considera a informação problemática.
+
+**Sentimento do usuário:** "A plataforma precisa saber que esse dado merece revisão."
+
+**Touchpoint:** Plataforma Web → Publicação → Reportar.
+
+---
+
+**4. Enviar o reporte para análise**
+
+**Descrição:** O reporte é encaminhado ao processo de moderação ou curadoria da plataforma para avaliação.
+
+A publicação não é automaticamente considerada incorreta apenas porque recebeu um reporte.
+
+**Sentimento do usuário:** "Agora alguém pode revisar isso antes que o problema se espalhe."
+
+**Touchpoint:** Plataforma Web → Reporte → Moderação.
+
+---
+
+**5. Continuar a investigação com cautela**
+
+**Descrição:** Enquanto a informação é analisada, Marina evita utilizá-la como única referência e continua buscando contexto em outras informações disponíveis.
+
+**Sentimento do usuário:** "Até isso ser esclarecido, é melhor tratar esse indicador com cautela."
+
+**Touchpoint:** CTHFeedTactics → Ferramentas internas de investigação.
